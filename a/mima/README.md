@@ -3,7 +3,7 @@
 Email Account | Answer | 绑定账户
 ------------ | ------------- | --
 bilibili 17611134069 | mima
-东方网络ssr heaL_W@163 | Ty888
+东方网络ssr heaL_W@163 | Ty888-
 
 > 2018年6月14日  
 
