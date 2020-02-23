@@ -1,10 +1,11 @@
-> 2020年2月19日
+> 2020年2月19日 浏览器
 
 浏览器 Account | Answer | 绑定账户
 ------------ | ------------- | --
-火狐国际版 | mima ty******
-
-
+火狐国际版 fire | mima ty****** | heal_w@outlook
+小木虫1 wh?ve | ty****** |wh?ve z1z2bz3@
+小木虫2 healbio | ty****** |wh?ve z1z2bz3@
+csc | q3tp2w |
 
 > 2019年10月6日 - now
 
