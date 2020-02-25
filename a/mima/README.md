@@ -4,10 +4,12 @@
 ------------ | ------------- | --
 火狐国际版 fire | mima ty****** | heal_w@outlook
 小木虫1 wh?ve | ty****** |wh?ve z1z2bz3@
-小木虫2 healbio | ty****** |wh?ve z1z2bz3@
+小木虫2 healbio | ty****** | z1z2bz3@
 csc | q3tp2w |
 印象笔记evernote-heal_w@outlook.com | Ty******-
 网赚appen | ty****** |
+Twitter 1)whve6 |ty******| 173****3320
+
 
 > 2019年10月6日 - now
 
@@ -15,7 +17,7 @@ Email Account | Answer | 绑定账户
 ------------ | ------------- | --
 bilibili 17611134069 | mima
 东方网络ssr heaL_W@163 | Ty888-
-Twtter 17353963320 | Tw888-
+
 
 > 2018年6月14日  
 
@@ -24,7 +26,7 @@ Email Account | Answer | 绑定账户
 google-healwoaini@gmail.com|ty******
 microsoft-heal_w@outlook.com | wr****** | facebook已经停用
 Facebook | ty******-  | 17353963320 instagram
-Twitter|ty******-|17353963320
+
 
 Account | Answer
 ------------ | -------------
