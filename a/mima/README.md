@@ -9,6 +9,13 @@ csc | q3tp2w |
 印象笔记evernote-heal_w@outlook.com | Ty******-
 网赚appen | ty****** |
 Twitter 1)whve6 |ty******| 173****3320
+Notefirst endnote 模板 | z1z2bz3@163 | ty*****
+
+> 2020年 删除账号
+
+删除 Account | Answer | 绑定账户
+------------ | ------------- | --
+NoteExpress | 17353963320 | ty******
 
 
 > 2019年10月6日 - now
