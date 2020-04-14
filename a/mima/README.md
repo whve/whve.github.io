@@ -1,3 +1,10 @@
+> 2020 视频网站搬运
+
+Account | Answer | 绑定账户
+------------ | ------------- | --
+youtube/google | mima ty****** | heal_w@outlook
+
+
 > 2020年2月19日 浏览器
 
 浏览器 Account | Answer | 绑定账户
