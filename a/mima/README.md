@@ -1,3 +1,10 @@
+> 2020年6月4日 keyworlds:浏览器 火狐
+
+浏览器 Account | Answer | 绑定账户
+------------ | ------------- | --
+火狐国际版 fire | mima ty****** | heal_w@outlook
+火狐 中国版 fire | mima hh****** | heal_w@outlook 已卸载
+
 > 2020 视频网站搬运
 
 Account | Answer | 绑定账户
