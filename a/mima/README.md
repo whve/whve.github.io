@@ -1,3 +1,10 @@
+> 父母
+
+浏览器 Account | Answer | 绑定账户
+------------ | ------------- | --
+wyzlsj@outlook | mima ty****** | PIN 93****
+
+
 > QQ
 
 浏览器 Account | Answer | 绑定账户
