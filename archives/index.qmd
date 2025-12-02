@@ -1,0 +1,17 @@
+---
+title: "Archives"
+listing:
+  contents:
+    - "**/*.{qmd,md}"    # 只抓取当前 archives 文件夹下的文件
+    - "!index.qmd"        # 排除自己
+  sort: "date desc"       # 按日期倒序 (即使你文件名有001，通常也是按日期排)
+  type: table
+  fields: [date, title, categories]
+  filter-ui: true
+  sort-ui: true
+
+# 【关键】顶格写，不要缩进，和 listing 对齐
+page-layout: full
+---
+
+这里存放已完结并不再维护的项目 (Graveyard)。

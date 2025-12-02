@@ -1,0 +1,62 @@
+/* 1. 导航栏美化：增加阴影和磨砂玻璃效果 */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* 2. 首页头像微调 */
+#about-block img {
+    border: 3px solid #f0f0f0; /* 给头像加个淡灰色边框 */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* 加点投影，更有立体感 */
+}
+
+/* 3. 按钮美化：去掉圆角，变得更硬朗极客一点 (可选) */
+.btn {
+    border-radius: 6px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+/* 4. 链接颜色：不想用默认的蓝色，可以改这里 */
+a {
+    color: #2c3e50; /* 深灰蓝 */
+    text-decoration: none;
+}
+a:hover {
+    color: #3498db; /* 悬停变亮蓝 */
+}
+
+/* 5. 调整正文最大宽度，不要太宽 */
+.page-columns .main-content {
+    max-width: 900px; /* 稍微宽一点点 */
+}
+
+/* 首页的四个大块 */
+.grid .g-col-12 {
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+    text-align: center; /* 让内容居中 */
+}
+
+/* 鼠标悬停时的效果 */
+.grid .g-col-12:hover {
+    transform: translateY(-5px); /* 微微上浮 */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-color: #3498db;
+}
+
+/* 隐藏首页下面可能自动生成的线条 */
+hr {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    opacity: 0.2;
+}

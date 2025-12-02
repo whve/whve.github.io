@@ -1,0 +1,48 @@
+---
+title: "Standard Output"
+image: profile.jpg
+listing: false         # 【关键】强制关闭列表功能，这是杀手锏
+about:
+  template: jolla
+  image-shape: round
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+👋 欢迎来到我的数字花园。这里采用 **PARA** 系统管理知识。
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### 🚀 [Projects](projects/index.qmd)
+**进行中的项目 / 代码 / 作品**
+<br>
+[📂 打开文件夹](projects/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 💡 [Areas](areas/index.qmd)
+**长期关注领域 / 深度思考**
+<br>
+[📂 打开文件夹](areas/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 📦 [Resources](resources/index.qmd)
+**知识库 / 笔记 / 速查表**
+<br>
+[📂 打开文件夹](resources/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🗄️ [Archives](archives/index.qmd)
+**历史归档 / 仿佛昨天**
+<br>
+[📂 打开文件夹](archives/index.qmd){.btn .btn-outline-secondary .btn-sm role="button"}
+:::
+
+:::

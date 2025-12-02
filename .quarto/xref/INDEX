@@ -1,0 +1,32 @@
+{
+  "areas/index.qmd": {
+    "index.html": "58ab8c92"
+  },
+  "areas/001-test-readme.md": {
+    "001-test-readme.html": "bda40d5b"
+  },
+  "projects/index.qmd": {
+    "index.html": "3c377997"
+  },
+  "projects/build-my-blog/001-test-readme.md": {
+    "001-test-readme.html": "8b060277"
+  },
+  "resources/001-test-readme.qmd": {
+    "001-test-readme.html": "4300976a"
+  },
+  "resources/index.qmd": {
+    "index.html": "83e704b5"
+  },
+  "archives/index.qmd": {
+    "index.html": "e93126e4"
+  },
+  "archives/001-test-readme.md": {
+    "001-test-readme.html": "a223179d"
+  },
+  "index.qmd": {
+    "index.html": "5a47b955"
+  },
+  "projects/001-test-readme.md": {
+    "001-test-readme.html": "51bb54cb"
+  }
+}

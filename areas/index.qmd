@@ -1,0 +1,9 @@
+---
+title: "Areas"
+listing:
+  contents: .
+  sort: "date desc"
+  type: default
+  categories: true
+---
+我的长期关注领域与思考随笔。

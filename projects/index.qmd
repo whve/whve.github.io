@@ -1,0 +1,16 @@
+---
+title: "Projects"
+listing:
+  # 这里我建议也改成精确写法，和 Archives 保持一致，防止未来出妖蛾子
+  contents:
+    - "*.{qmd,md}"       # 只抓当前目录下的文章
+    - "!index.qmd"       # 排除自己
+  sort: "date desc"
+  type: grid
+  categories: true
+  fields: [image, date, title, description] # 显式指定显示哪些元素
+
+# 【强烈建议加上这行】让网格布局铺满屏幕
+page-layout: full
+---
+我的实战项目与代码作品。

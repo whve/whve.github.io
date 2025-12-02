@@ -1,0 +1,50 @@
+[
+  {
+    "listing": "/archives/index.html",
+    "items": [
+      "/archives/001-test-readme.html"
+    ]
+  },
+  {
+    "listing": "/resources/001-test-readme.html",
+    "items": [
+      "/resources/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/001-test-readme.html"
+    ]
+  },
+  {
+    "listing": "/areas/index.html",
+    "items": [
+      "/areas/001-test-readme.html"
+    ]
+  },
+  {
+    "listing": "/areas/001-test-readme.html",
+    "items": [
+      "/areas/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/001-test-readme.html",
+    "items": [
+      "/projects/index.html"
+    ]
+  },
+  {
+    "listing": "/resources/index.html",
+    "items": [
+      "/resources/001-test-readme.html"
+    ]
+  },
+  {
+    "listing": "/archives/001-test-readme.html",
+    "items": [
+      "/archives/index.html"
+    ]
+  }
+]

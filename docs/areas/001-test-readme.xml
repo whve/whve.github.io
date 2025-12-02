@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Standard Output</title>
+<link>https://你的用户名.github.io/blog/areas/001-test-readme.html</link>
+<atom:link href="https://你的用户名.github.io/blog/areas/001-test-readme.xml" rel="self" type="application/rss+xml"/>
+<description>这是我的第一篇 Quarto 博客文章。</description>
+<generator>quarto-1.6.32</generator>
+<lastBuildDate>Tue, 02 Dec 2025 03:54:07 GMT</lastBuildDate>
+<item>
+  <title>Areas</title>
+  <link>https://你的用户名.github.io/blog/areas/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>我的长期关注领域与思考随笔。</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="TGlmZSxUZXN0" data-listing-date-sort="1764604800000" data-listing-file-modified-sort="1764642464467" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="thumbnail">
+<p><a href="../areas/001-test-readme.html" class="no-external"></a></p><a href="../areas/001-test-readme.html" class="no-external">
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:areas/001-test-readme.html -->
+</a><p><a href="../areas/001-test-readme.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../areas/001-test-readme.html" class="no-external">Hello PARA World</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../areas/001-test-readme.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('TGlmZQ=='); return false;">
+Life
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VGVzdA=='); return false;">
+Test
+</div>
+</div>
+<div class="listing-description">
+<a href="../areas/001-test-readme.html" class="no-external">这是我的第一篇 Quarto 博客文章。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../areas/001-test-readme.html" class="no-external">
+<div class="listing-date">
+Dec 2, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://你的用户名.github.io/blog/areas/</guid>
+  <pubDate>Tue, 02 Dec 2025 03:54:07 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,9 @@
+---
+title: "Resources"
+listing:
+  contents: .
+  sort: "title asc"
+  type: table
+  categories: true
+---
+我的知识库与速查表。

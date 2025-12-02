@@ -1,0 +1,30 @@
+{
+  "listingMap": {
+    "areas/index.qmd": [
+      "."
+    ],
+    "areas/001-test-readme.md": [
+      "B3049D40"
+    ],
+    "projects/index.qmd": [
+      "*.{qmd,md}",
+      "!index.qmd"
+    ],
+    "projects/001-test-readme.md": [
+      "B3049D40"
+    ],
+    "resources/001-test-readme.qmd": [
+      "B3049D40"
+    ],
+    "resources/index.qmd": [
+      "."
+    ],
+    "archives/index.qmd": [
+      "**/*.{qmd,md}",
+      "!index.qmd"
+    ],
+    "archives/001-test-readme.md": [
+      "B3049D40"
+    ]
+  }
+}

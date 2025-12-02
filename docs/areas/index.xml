@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Standard Output</title>
+<link>https://你的用户名.github.io/blog/areas/</link>
+<atom:link href="https://你的用户名.github.io/blog/areas/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.6.32</generator>
+<lastBuildDate>Mon, 01 Dec 2025 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Hello PARA World</title>
+  <link>https://你的用户名.github.io/blog/areas/001-test-readme.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="欢迎" class="level2">
+<h2 class="anchored" data-anchor-id="欢迎">欢迎</h2>
+<p>这是正文。</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">搭建 Quarto 环境</label></li>
+<li><label><input type="checkbox" checked="">配置 PARA 架构</label></li>
+<li><label><input type="checkbox">发布到 GitHub</label></li>
+</ul>
+<p>这里是一段 Python 代码测试：</p>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1764600244182" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../areas/index.html" class="no-external"></a></p><a href="../areas/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top">&nbsp;</div>
+</a><p><a href="../areas/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../areas/index.html" class="no-external">Areas</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../areas/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../areas/index.html" class="no-external">我的长期关注领域与思考随笔。</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../areas/index.html" class="no-external"></a></p><a href="../areas/index.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <category>Life</category>
+  <category>Test</category>
+  <guid>https://你的用户名.github.io/blog/areas/001-test-readme.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

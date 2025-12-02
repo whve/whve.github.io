@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Standard Output",
+    "section": "",
+    "text": "👋 欢迎来到我的数字花园。这里采用 PARA 系统管理知识。\n\n\n\n🚀 Projects\n进行中的项目 / 代码 / 作品  📂 打开文件夹\n\n\n💡 Areas\n长期关注领域 / 深度思考  📂 打开文件夹\n\n\n📦 Resources\n知识库 / 笔记 / 速查表  📂 打开文件夹\n\n\n🗄️ Archives\n历史归档 / 仿佛昨天  📂 打开文件夹"
+  },
+  {
+    "objectID": "archives/index.html",
+    "href": "archives/index.html",
+    "title": "Archives",
+    "section": "",
+    "text": "这里存放已完结并不再维护的项目 (Graveyard)。\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nDec 3, 2025\n\n\nreadme\n\n\nreadme\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/001-test-readme.html",
+    "href": "resources/001-test-readme.html",
+    "title": "Markdown 常用语法速查",
+    "section": "",
+    "text": "这是一份备忘录。\n\n\n\n\n\n语法\n效果\n\n\n\n\n**Bold**\nBold\n\n\n*Italic*\nItalic\n\n\n~~Delete~~\nDelete\n\n\n\n\n\n\nQuarto 对代码块的支持非常完美："
+  },
+  {
+    "objectID": "resources/001-test-readme.html#基础语法",
+    "href": "resources/001-test-readme.html#基础语法",
+    "title": "Markdown 常用语法速查",
+    "section": "",
+    "text": "这是一份备忘录。\n\n\n\n\n\n语法\n效果\n\n\n\n\n**Bold**\nBold\n\n\n*Italic*\nItalic\n\n\n~~Delete~~\nDelete\n\n\n\n\n\n\nQuarto 对代码块的支持非常完美："
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "我的实战项目与代码作品。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客\n\n\n如何使用 Quarto 构建一个支持代码渲染、无需服务器、且拥有 PARA 知识管理架构的现代化个人网站。\n\n\n\nDec 2, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "areas/index.html",
+    "href": "areas/index.html",
+    "title": "Areas",
+    "section": "",
+    "text": "我的长期关注领域与思考随笔。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello PARA World\n\n\n\n\n\n\nLife\n\n\nTest\n\n\n\n这是我的第一篇 Quarto 博客文章。\n\n\n\n\n\nDec 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "areas/001-test-readme.html",
+    "href": "areas/001-test-readme.html",
+    "title": "Hello PARA World",
+    "section": "",
+    "text": "这是正文。\n\n搭建 Quarto 环境\n配置 PARA 架构\n发布到 GitHub\n\n这里是一段 Python 代码测试："
+  },
+  {
+    "objectID": "areas/001-test-readme.html#欢迎",
+    "href": "areas/001-test-readme.html#欢迎",
+    "title": "Hello PARA World",
+    "section": "",
+    "text": "这是正文。\n\n搭建 Quarto 环境\n配置 PARA 架构\n发布到 GitHub\n\n这里是一段 Python 代码测试："
+  },
+  {
+    "objectID": "projects/001-test-readme.html",
+    "href": "projects/001-test-readme.html",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "",
+    "text": "作为技术人员或数据工作者，传统的 Hexo/Hugo 虽然强大，但对 Jupyter Notebook (.ipynb) 和 RMarkdown 的支持并不原生。Quarto 是 RStudio (Posit) 推出的下一代开源发布系统，它天生支持 Python/R/Julia 代码的执行与渲染，同时拥有极其简洁的配置逻辑。\n这篇文章将记录我如何使用 Quarto 配合 PARA 知识管理系统，在 GitHub Pages 上搭建这个博客的全过程。"
+  },
+  {
+    "objectID": "projects/001-test-readme.html#为什么选择-quarto",
+    "href": "projects/001-test-readme.html#为什么选择-quarto",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "",
+    "text": "作为技术人员或数据工作者，传统的 Hexo/Hugo 虽然强大，但对 Jupyter Notebook (.ipynb) 和 RMarkdown 的支持并不原生。Quarto 是 RStudio (Posit) 推出的下一代开源发布系统，它天生支持 Python/R/Julia 代码的执行与渲染，同时拥有极其简洁的配置逻辑。\n这篇文章将记录我如何使用 Quarto 配合 PARA 知识管理系统，在 GitHub Pages 上搭建这个博客的全过程。"
+  },
+  {
+    "objectID": "projects/001-test-readme.html#常用命令速查-cheat-sheet",
+    "href": "projects/001-test-readme.html#常用命令速查-cheat-sheet",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "2. 常用命令速查 (Cheat Sheet)",
+    "text": "2. 常用命令速查 (Cheat Sheet)\n在开始之前，这几个命令建议刻在脑子里，开发过程中会反复用到：\n\n启动本地预览: bash     quarto preview 作用：启动本地服务器，保存文件后浏览器会自动刷新。\n清理缓存并重建 (救命命令): bash     quarto render --clean 作用：当你发现改了配置没生效，或者页面样式错乱时，运行它！它会彻底清理缓存并重新编译。\n一键发布: bash     quarto publish gh-pages\n\n这是一个升级版的博客教程文章。\n我已将你刚才提到的需求全部融合进去了：\n\n常用命令速查：加入了 render --clean 和 preview 的说明。\n配图说明：特别强调了 Projects 在 Grid 布局下需要 image 才好看。\n实战样例：补充了 areas 里的文章写法，以及 archives 的工作原理。\n字体调整：把刚才的 Arial 12 配置也加进了配置文件代码中。\n\n你可以直接复制这一整块代码，作为你的第一篇博客内容："
+  },
+  {
+    "objectID": "projects/001-test-readme.html#初始化与-para-架构设计",
+    "href": "projects/001-test-readme.html#初始化与-para-架构设计",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "3. 初始化与 PARA 架构设计",
+    "text": "3. 初始化与 PARA 架构设计\n在终端中运行以下命令，创建一个博客类型的项目骨架：\n# 1. 创建项目\nquarto create-project . --type website:blog\n\n# 2. 清理默认文件\nrm -rf posts about.qmd\n\n# 3. 创建 PARA 目录\nmkdir projects areas resources archives\n我们需要分别为这四个目录创建索引文件 index.qmd，并指定不同的布局。\n\nProjects (网格视图)\nProjects 适合展示作品集。 注意： 为了美观，grid 布局下的文章强烈建议配图，否则会显示为空白的灰色方块。\n在 projects/index.qmd 中：\n---\ntitle: \"Projects\"\nlisting:\n  contents: .\n  sort: \"date desc\"\n  type: grid            # 网格布局\n  categories: true\n  fields: [image, date, title, description] # 显式要求显示图片\n---\n我的实战项目与代码作品。\n\n\nAreas (博客视图)\nAreas 适合传统的长文阅读。\n在 areas/index.qmd 中：\n---\ntitle: \"Areas\"\nlisting:\n  contents: .\n  sort: \"date desc\"\n  type: default         # 标准博客布局\n  categories: true\n---\n深度思考与随笔。\n\n\nArchives (归档视图)\nArchives 不需要写文章，它的作用是把所有其他文件夹的内容汇总在一起，形成一个时间线列表。\n在 archives/index.qmd 中：\n---\ntitle: \"Archives\"\nlisting:\n  contents:             # 关键：这里引用其他三个文件夹\n    - ../projects\n    - ../areas\n    - ../resources\n  sort: \"date desc\"\n  type: table           # 表格视图，像文件列表一样清晰\n  fields: [date, title, categories]\n---\n所有内容的完整历史归档。"
+  },
+  {
+    "objectID": "projects/001-test-readme.html#核心配置与字体调整",
+    "href": "projects/001-test-readme.html#核心配置与字体调整",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "4. 核心配置与字体调整",
+    "text": "4. 核心配置与字体调整\n这是我的 _quarto.yml 配置，我调整了字体大小，使其更接近 Arial 12 的阅读体验：\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"Standard Output\"\n  site-url: \"[https://你的用户名.github.io](https://你的用户名.github.io)\"\n  navbar:\n    right:\n      - text: \"Projects\"\n        href: projects/index.qmd\n      - text: \"Areas\"\n        href: areas/index.qmd\n      - text: \"Resources\"\n        href: resources/index.qmd\n      - text: \"Archives\"\n        href: archives/index.qmd\n      - icon: github\n        href: [https://github.com/你的用户名](https://github.com/你的用户名)\n\nformat:\n  html:\n    theme: litera\n    css: styles.css\n    toc: true\n    # --- 字体微调 ---\n    mainfont: \"Arial, sans-serif\"\n    fontsize: 0.9em    # 0.9em 约等于 14.4px，视觉上接近 Word 的 12号字\n    linestretch: 1.6   # 增加行高，提升阅读舒适度"
+  },
+  {
+    "objectID": "projects/001-test-readme.html#实战如何写文章-sample",
+    "href": "projects/001-test-readme.html#实战如何写文章-sample",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "5. 实战：如何写文章 (Sample)",
+    "text": "5. 实战：如何写文章 (Sample)\n\n例子 A：写一个 Project (带封面图)\n文件路径：projects/my-app/index.qmd\n---\ntitle: \"Python 爬虫实战\"\ndate: 2025-12-05\ncategories: [Python, Project]\nimage: featured.png   # 【重要】Grid 布局需要这张图才好看！\ndescription: \"爬取豆瓣电影Top250的完整代码。\"\n---\n\n这里是正文...\n\n\n例子 B：写一篇 Area 随笔\n文件路径：areas/thoughts/index.qmd\n---\ntitle: \"关于长期主义的思考\"\ndate: 2025-12-06\ncategories: [Life, Thinking]\n# Areas 默认列表布局不需要 image，当然加上也可以\n---\n\n这里是正文..."
+  },
+  {
+    "objectID": "projects/001-test-readme.html#首页设计-dashboard",
+    "href": "projects/001-test-readme.html#首页设计-dashboard",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "6. 首页设计 (Dashboard)",
+    "text": "6. 首页设计 (Dashboard)\n为了让首页直观展示 PARA 文件夹，我们在根目录的 index.qmd 中使用栅格布局。 关键点：必须设置 listing: false 以去除底部的重复列表。\n---\ntitle: \"Standard Output\"\nlisting: false          # 关键！防止首页底部出现杂乱的文章列表\nabout:\n  template: jolla\n  image: profile.jpg\n  links:\n    - icon: github\n      href: [https://github.com](https://github.com)\n---\n\n👋 欢迎来到我的数字花园。\n\n---\n\n::: {.grid}\n\n::: {.g-col-12 .g-col-md-6}\n### 🚀 [Projects](projects/index.qmd)\n**进行中的项目**\n&lt;br&gt;\n[📂 打开文件夹](projects/index.qmd){.btn .btn-outline-primary .btn-sm role=\"button\"}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n### 💡 [Areas](areas/index.qmd)\n**思考与随笔**\n&lt;br&gt;\n[📂 打开文件夹](areas/index.qmd){.btn .btn-outline-primary .btn-sm role=\"button\"}\n:::\n\n:::"
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "我的知识库与速查表。\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nDec 3, 2025\n\n\nMarkdown 常用语法速查\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "archives/001-test-readme.html",
+    "href": "archives/001-test-readme.html",
+    "title": "readme",
+    "section": "",
+    "text": "https://gemini.google.com/app/3ccac7b984f6ca2c\n报错问题:archives不显示Projects, Areas, Resources. 另外有error. Gemini解决方案都不可以.\n这就触及到了 “个人知识管理 (PKM)” 和 “公开博客 (Blog)” 在定义上的一个核心冲突点。\n你的理解在 PARA 方法论 层面是绝对正确的，但在 博客用户体验 层面，我们需要做一个取舍。\n这里有两种流派，你可以根据自己的喜好选择：\n\n流派一：全量时间轴流 (Blog Archive) —— 推荐\n“Archives” = 网站地图 / 历史全集\n在大多数博客中，读者点击 “Archives” (归档) 按钮，通常是想找**“按时间排序的所有文章列表”**，而不在乎这篇文章目前是“正在进行”还是“已经结束”。\n如果你把 ../projects 去掉，那么你正在进行的精彩项目就不会出现在这个时间线上，读者可能会觉得内容很少。\n\n配置方式： (保留引用，并加入当前目录) 我们不仅要保留引用，还要加入 . (当前目录)，这样你物理移动过来的旧项目也能显示。 yaml     listing:       contents:         - .                       # &lt;--- 新增：包含 Archives 文件夹自己 (存放已搬过来的旧项目)         - \"../projects/**/*.qmd\"  # 包含活跃项目         - \"../areas/**/*.qmd\"         - \"../resources/**/*.qmd\"\n\n\n\n\n流派二：严格 PARA 流 (Project Graveyard)\n“Archives” = 储藏室 / 完结区\n这就是你说的逻辑。你希望 “Archives” 页面只展示那些“已经完结、不再维护、被物理移动过来”的项目。活跃的项目只在 “Projects” 页面显示。\n\n配置方式： (删掉外部引用，只看自己) yaml     listing:       contents:         - \"**/*.{qmd,md}\"    # 只抓取当前 archives 文件夹下的东西       sort: \"date desc\"\n后果： 你的 Archives 页面一开始会是空的，直到你真正把某个项目文件夹从 projects/ 剪切粘贴到 archives/ 下，它才会出现。\n\n\n\n\n我的建议\n建议采用“流派一 (全量时间轴)”。\n因为对于访问者来说，他们不关心你的 PARA 内部状态（Active/Archived），他们只关心内容。 你可以把这个页面改名为 “Timeline” (时间轴) 或者 “All Posts”，这样既符合博客习惯，又不违反你内心的 PARA 定义。\n如何修改代码支持“搬运”操作？\n无论你选哪种流派，为了支持你将文件物理移动到 archives 文件夹，都需要在 archives/index.qmd 里加上对当前目录 . 的监控。\n请更新你的 archives/index.qmd 配置如下（这是一个完美兼容版）：\n---\ntitle: \"Archives\"\nlisting:\n  contents:\n    - .                       # 1. 监控当前文件夹 (移动过来的旧项目在这里显示)\n    - \"../projects/**/*.qmd\"  # 2. 监控活跃项目 (让它们也出现在时间线上)\n    - \"../areas/**/*.qmd\"\n    - \"../resources/**/*.qmd\"\n    # 排除各种索引页\n    - \"!index.qmd\"            # 排除自己\n    - \"!../projects/index.qmd\"\n    - \"!../areas/index.qmd\"\n    - \"!../resources/index.qmd\"\n  sort: \"date desc\"\n  type: table\n  fields: [date, title, categories]\n---\n这样设置后：\n\n活跃时： 项目在 projects/ 里，Archives 页面能看到它。\n完结后： 你把项目文件夹剪切到 archives/ 里，Archives 页面依然能看到它（链接不会断），只是物理位置变了。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArchives\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  }
+]

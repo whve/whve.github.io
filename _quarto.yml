@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Standard Output"   # 暂时叫这个，以后随时改
+  site-url: "https://whve.github.io/" 
+  navbar:
+    right:
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Areas"
+        href: areas/index.qmd
+      - text: "Resources"
+        href: resources/index.qmd
+      - text: "Archives"       # 新增这一行
+        href: archives/index.qmd
+      - icon: github
+        href: https://github.com/whve
+      - icon: rss
+        href: index.xml
+
+format:
+  html:
+    theme: litera      # 推荐尝试: litera, pulse, minty, journal
+    css: styles.css
+    toc: true
+    # 增加下面这行，让页面宽度不要太宽，阅读体验更好
+    # mainfont: "Helvetica Neue, system-ui, sans-serif"
+    # --- 在这里加入下面三行 ---
+    mainfont: "Arial, sans-serif"  # 强制使用 Arial 字体
+    fontsize: 0.9em                # 推荐：0.9em 约等于 14.4px (比较适合阅读)
+    linestretch: 1.6               # 行高：字小了，行距要大一点才舒服
+    # -------------------------
+
+
+listing:
+  feed: true

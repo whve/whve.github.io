@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Standard Output</title>
+<link>https://你的用户名.github.io/blog/resources/</link>
+<atom:link href="https://你的用户名.github.io/blog/resources/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.6.32</generator>
+<lastBuildDate>Tue, 02 Dec 2025 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Markdown 常用语法速查</title>
+  <link>https://你的用户名.github.io/blog/resources/001-test-readme.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="基础语法" class="level2">
+<h2 class="anchored" data-anchor-id="基础语法">基础语法</h2>
+<p>这是一份备忘录。</p>
+<section id="文本样式" class="level3">
+<h3 class="anchored" data-anchor-id="文本样式">1. 文本样式</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">语法</th>
+<th style="text-align: left;">效果</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>**Bold**</code></td>
+<td style="text-align: left;"><strong>Bold</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>*Italic*</code></td>
+<td style="text-align: left;"><em>Italic</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>~~Delete~~</code></td>
+<td style="text-align: left;"><del>Delete</del></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="代码块" class="level3">
+<h3 class="anchored" data-anchor-id="代码块">2. 代码块</h3>
+<p>Quarto 对代码块的支持非常完美：</p>
+
+
+
+</section>
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing-1">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1764600244185" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../resources/index.html" class="no-external"></a></p><a href="../resources/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top">&nbsp;</div>
+</a><p><a href="../resources/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../resources/index.html" class="no-external">Resources</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../resources/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../resources/index.html" class="no-external">我的知识库与速查表。</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../resources/index.html" class="no-external"></a></p><a href="../resources/index.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <category>Markdown</category>
+  <category>Cheatsheet</category>
+  <category>Efficiency</category>
+  <guid>https://你的用户名.github.io/blog/resources/001-test-readme.html</guid>
+  <pubDate>Tue, 02 Dec 2025 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

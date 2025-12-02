@@ -1,0 +1,24 @@
+---
+title: "Markdown 常用语法速查"
+date: 2025-12-03
+categories: [Markdown, Cheatsheet, Efficiency]
+description: "写作中常用的 Markdown 语法及其在 Quarto 中的渲染效果。"
+listing: []
+---
+
+## 基础语法
+
+这是一份备忘录。
+
+### 1. 文本样式
+
+| 语法 | 效果 |
+| :--- | :--- |
+| `**Bold**` | **Bold** |
+| `*Italic*` | *Italic* |
+| `~~Delete~~` | ~~Delete~~ |
+
+### 2. 代码块
+
+Quarto 对代码块的支持非常完美：
+

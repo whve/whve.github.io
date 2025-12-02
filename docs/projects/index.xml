@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Standard Output</title>
+<link>https://你的用户名.github.io/blog/projects/</link>
+<atom:link href="https://你的用户名.github.io/blog/projects/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.6.32</generator>
+<lastBuildDate>Mon, 01 Dec 2025 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客</title>
+  <link>https://你的用户名.github.io/blog/projects/001-test-readme.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="为什么选择-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="为什么选择-quarto">1. 为什么选择 Quarto?</h2>
+<p>作为技术人员或数据工作者，传统的 Hexo/Hugo 虽然强大，但对 Jupyter Notebook (<code>.ipynb</code>) 和 RMarkdown 的支持并不原生。<strong>Quarto</strong> 是 RStudio (Posit) 推出的下一代开源发布系统，它天生支持 Python/R/Julia 代码的执行与渲染，同时拥有极其简洁的配置逻辑。</p>
+<p>这篇文章将记录我如何使用 <strong>Quarto</strong> 配合 <strong>PARA 知识管理系统</strong>，在 GitHub Pages 上搭建这个博客的全过程。</p>
+</section>
+<section id="常用命令速查-cheat-sheet" class="level2">
+<h2 class="anchored" data-anchor-id="常用命令速查-cheat-sheet">2. 常用命令速查 (Cheat Sheet)</h2>
+<p>在开始之前，这几个命令建议刻在脑子里，开发过程中会反复用到：</p>
+<ul>
+<li><p><strong>启动本地预览</strong>: <code>bash     quarto preview</code> <em>作用：启动本地服务器，保存文件后浏览器会自动刷新。</em></p></li>
+<li><p><strong>清理缓存并重建</strong> (救命命令): <code>bash     quarto render --clean</code> <em>作用：当你发现改了配置没生效，或者页面样式错乱时，运行它！它会彻底清理缓存并重新编译。</em></p></li>
+<li><p><strong>一键发布</strong>: <code>bash     quarto publish gh-pages</code></p></li>
+</ul>
+<p>这是一个<strong>升级版</strong>的博客教程文章。</p>
+<p>我已将你刚才提到的需求全部融合进去了：</p>
+<ol type="1">
+<li><strong>常用命令速查</strong>：加入了 <code>render --clean</code> 和 <code>preview</code> 的说明。</li>
+<li><strong>配图说明</strong>：特别强调了 Projects 在 Grid 布局下需要 <code>image</code> 才好看。</li>
+<li><strong>实战样例</strong>：补充了 <code>areas</code> 里的文章写法，以及 <code>archives</code> 的工作原理。</li>
+<li><strong>字体调整</strong>：把刚才的 Arial 12 配置也加进了配置文件代码中。</li>
+</ol>
+<p>你可以直接复制这一整块代码，作为你的第一篇博客内容：</p>
+</section>
+<section id="初始化与-para-架构设计" class="level2">
+<h2 class="anchored" data-anchor-id="初始化与-para-架构设计">3. 初始化与 PARA 架构设计</h2>
+<p>在终端中运行以下命令，创建一个博客类型的项目骨架：</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 1. 创建项目</span></span>
+<span id="cb1-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> create-project . <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--type</span> website:blog</span>
+<span id="cb1-3"></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 2. 清理默认文件</span></span>
+<span id="cb1-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rm</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-rf</span> posts about.qmd</span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 3. 创建 PARA 目录</span></span>
+<span id="cb1-8"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mkdir</span> projects areas resources archives</span></code></pre></div>
+<p>我们需要分别为这四个目录创建索引文件 <code>index.qmd</code>，并指定不同的布局。</p>
+<section id="projects-网格视图" class="level3">
+<h3 class="anchored" data-anchor-id="projects-网格视图">Projects (网格视图)</h3>
+<p>Projects 适合展示作品集。 <strong>注意：</strong> 为了美观，<code>grid</code> 布局下的文章<strong>强烈建议</strong>配图，否则会显示为空白的灰色方块。</p>
+<p>在 <code>projects/index.qmd</code> 中：</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb2-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Projects"</span></span>
+<span id="cb2-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">listing</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb2-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">contents</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> .</span></span>
+<span id="cb2-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sort</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"date desc"</span></span>
+<span id="cb2-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">type</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> grid</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">            # 网格布局</span></span>
+<span id="cb2-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">categories</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb2-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fields</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">image</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">,</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> date</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">,</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">,</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> description</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">]</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> # 显式要求显示图片</span></span>
+<span id="cb2-9"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb2-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">我的实战项目与代码作品。</span></span></code></pre></div>
+</section>
+<section id="areas-博客视图" class="level3">
+<h3 class="anchored" data-anchor-id="areas-博客视图">Areas (博客视图)</h3>
+<p>Areas 适合传统的长文阅读。</p>
+<p>在 <code>areas/index.qmd</code> 中：</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Areas"</span></span>
+<span id="cb3-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">listing</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb3-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">contents</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> .</span></span>
+<span id="cb3-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sort</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"date desc"</span></span>
+<span id="cb3-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">type</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> default</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">         # 标准博客布局</span></span>
+<span id="cb3-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">categories</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb3-8"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb3-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">深度思考与随笔。</span></span></code></pre></div>
+</section>
+<section id="archives-归档视图" class="level3">
+<h3 class="anchored" data-anchor-id="archives-归档视图">Archives (归档视图)</h3>
+<p>Archives 不需要写文章，它的作用是把所有其他文件夹的内容汇总在一起，形成一个时间线列表。</p>
+<p>在 <code>archives/index.qmd</code> 中：</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Archives"</span></span>
+<span id="cb4-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">listing</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb4-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">contents</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">             # 关键：这里引用其他三个文件夹</span></span>
+<span id="cb4-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> ../projects</span></span>
+<span id="cb4-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> ../areas</span></span>
+<span id="cb4-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> ../resources</span></span>
+<span id="cb4-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sort</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"date desc"</span></span>
+<span id="cb4-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">type</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> table</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">           # 表格视图，像文件列表一样清晰</span></span>
+<span id="cb4-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fields</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">date</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">,</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">,</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> categories</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">]</span></span>
+<span id="cb4-11"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb4-12"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">所有内容的完整历史归档。</span></span></code></pre></div>
+</section>
+</section>
+<section id="核心配置与字体调整" class="level2">
+<h2 class="anchored" data-anchor-id="核心配置与字体调整">4. 核心配置与字体调整</h2>
+<p>这是我的 <code>_quarto.yml</code> 配置，我调整了字体大小，使其更接近 Arial 12 的阅读体验：</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">project</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb5-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">type</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> website</span></span>
+<span id="cb5-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">output-dir</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> docs</span></span>
+<span id="cb5-4"></span>
+<span id="cb5-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">website</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb5-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Standard Output"</span></span>
+<span id="cb5-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">site-url</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"[https://你的用户名.github.io](https://你的用户名.github.io)"</span></span>
+<span id="cb5-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">navbar</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb5-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">right</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb5-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Projects"</span></span>
+<span id="cb5-11"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> projects/index.qmd</span></span>
+<span id="cb5-12"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Areas"</span></span>
+<span id="cb5-13"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> areas/index.qmd</span></span>
+<span id="cb5-14"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Resources"</span></span>
+<span id="cb5-15"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> resources/index.qmd</span></span>
+<span id="cb5-16"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Archives"</span></span>
+<span id="cb5-17"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> archives/index.qmd</span></span>
+<span id="cb5-18"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">icon</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> github</span></span>
+<span id="cb5-19"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">https://github.com/你的用户名</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">]</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">(https://github.com/你的用户名)</span></span>
+<span id="cb5-20"></span>
+<span id="cb5-21"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb5-22"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb5-23"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> litera</span></span>
+<span id="cb5-24"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">css</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> styles.css</span></span>
+<span id="cb5-25"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">toc</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">true</span></span>
+<span id="cb5-26"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    # --- 字体微调 ---</span></span>
+<span id="cb5-27"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mainfont</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Arial, sans-serif"</span></span>
+<span id="cb5-28"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fontsize</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> 0.9em</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    # 0.9em 约等于 14.4px，视觉上接近 Word 的 12号字</span></span>
+<span id="cb5-29"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">linestretch</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.6</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">   # 增加行高，提升阅读舒适度</span></span></code></pre></div>
+</section>
+<section id="实战如何写文章-sample" class="level2">
+<h2 class="anchored" data-anchor-id="实战如何写文章-sample">5. 实战：如何写文章 (Sample)</h2>
+<section id="例子-a写一个-project-带封面图" class="level3">
+<h3 class="anchored" data-anchor-id="例子-a写一个-project-带封面图">例子 A：写一个 Project (带封面图)</h3>
+<p>文件路径：<code>projects/my-app/index.qmd</code></p>
+<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb6-2"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">title:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> "Python 爬虫实战"</span></span>
+<span id="cb6-3"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">date:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> 2025-12-05</span></span>
+<span id="cb6-4"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">categories:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> [Python, Project]</span></span>
+<span id="cb6-5"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">image:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> featured.png   # 【重要】Grid 布局需要这张图才好看！</span></span>
+<span id="cb6-6"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">description:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> "爬取豆瓣电影Top250的完整代码。"</span></span>
+<span id="cb6-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb6-8"></span>
+<span id="cb6-9">这里是正文...</span></code></pre></div>
+</section>
+<section id="例子-b写一篇-area-随笔" class="level3">
+<h3 class="anchored" data-anchor-id="例子-b写一篇-area-随笔">例子 B：写一篇 Area 随笔</h3>
+<p>文件路径：<code>areas/thoughts/index.qmd</code></p>
+<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb7-2"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">title:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> "关于长期主义的思考"</span></span>
+<span id="cb7-3"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">date:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> 2025-12-06</span></span>
+<span id="cb7-4"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">categories:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> [Life, Thinking]</span></span>
+<span id="cb7-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Areas 默认列表布局不需要 image，当然加上也可以</span></span>
+<span id="cb7-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb7-7"></span>
+<span id="cb7-8">这里是正文...</span></code></pre></div>
+</section>
+</section>
+<section id="首页设计-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="首页设计-dashboard">6. 首页设计 (Dashboard)</h2>
+<p>为了让首页直观展示 PARA 文件夹，我们在根目录的 <code>index.qmd</code> 中使用栅格布局。 <strong>关键点</strong>：必须设置 <code>listing: false</code> 以去除底部的重复列表。</p>
+<div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb8-2"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">title:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> "Standard Output"</span></span>
+<span id="cb8-3"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">listing:</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> false          # 关键！防止首页底部出现杂乱的文章列表</span></span>
+<span id="cb8-4"><span class="an" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">about:</span></span>
+<span id="cb8-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">  template: jolla</span></span>
+<span id="cb8-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">  image: profile.jpg</span></span>
+<span id="cb8-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">  links:</span></span>
+<span id="cb8-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    - icon: github</span></span>
+<span id="cb8-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">      href: [https://github.com](https://github.com)</span></span>
+<span id="cb8-10"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb8-11"></span>
+<span id="cb8-12">👋 欢迎来到我的数字花园。</span>
+<span id="cb8-13"></span>
+<span id="cb8-14">---</span>
+<span id="cb8-15"></span>
+<span id="cb8-16">::: {.grid}</span>
+<span id="cb8-17"></span>
+<span id="cb8-18">::: {.g-col-12 .g-col-md-6}</span>
+<span id="cb8-19"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">### 🚀 [Projects](projects/index.qmd)</span></span>
+<span id="cb8-20">**进行中的项目**</span>
+<span id="cb8-21">&lt;br&gt;</span>
+<span id="cb8-22"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">📂 打开文件夹</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">](projects/index.qmd)</span>{.btn .btn-outline-primary .btn-sm role="button"}</span>
+<span id="cb8-23">:::</span>
+<span id="cb8-24"></span>
+<span id="cb8-25">::: {.g-col-12 .g-col-md-6}</span>
+<span id="cb8-26"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">### 💡 [Areas](areas/index.qmd)</span></span>
+<span id="cb8-27">**思考与随笔**</span>
+<span id="cb8-28">&lt;br&gt;</span>
+<span id="cb8-29"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">📂 打开文件夹</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">](areas/index.qmd)</span>{.btn .btn-outline-primary .btn-sm role="button"}</span>
+<span id="cb8-30">:::</span>
+<span id="cb8-31"></span>
+<span id="cb8-32">:::</span></code></pre></div>
+</section>
+<section id="注意-markdown的-上下对应" class="level1">
+<h1>注意 markdown的``` 上下对应</h1>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing-1">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1764647485167" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../projects/index.html" class="no-external"></a></p><a href="../projects/index.html" class="no-external">
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing-1:projects/index.html -->
+</a><p><a href="../projects/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projects/index.html" class="no-external">Projects</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projects/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projects/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:projects/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../projects/index.html" class="no-external"></a></p><a href="../projects/index.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <category>Quarto</category>
+  <category>Blog</category>
+  <category>Tutorial</category>
+  <category>PARA</category>
+  <guid>https://你的用户名.github.io/blog/projects/001-test-readme.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+  <media:content url="https://你的用户名.github.io/blog/projects/001-test-cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

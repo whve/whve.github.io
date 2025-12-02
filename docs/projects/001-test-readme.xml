@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Standard Output</title>
+<link>https://你的用户名.github.io/blog/projects/001-test-readme.html</link>
+<atom:link href="https://你的用户名.github.io/blog/projects/001-test-readme.xml" rel="self" type="application/rss+xml"/>
+<description>如何使用 Quarto 构建一个支持代码渲染、无需服务器、且拥有 PARA 知识管理架构的现代化个人网站。</description>
+<image>
+<url>https://你的用户名.github.io/blog/001-test-cover.jpg</url>
+<title>Standard Output</title>
+<link>https://你的用户名.github.io/blog/projects/001-test-readme.html</link>
+</image>
+<generator>quarto-1.6.32</generator>
+<lastBuildDate>Tue, 02 Dec 2025 03:55:03 GMT</lastBuildDate>
+<item>
+  <title>Projects</title>
+  <link>https://你的用户名.github.io/blog/projects/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>我的实战项目与代码作品。</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UXVhcnRvLEJsb2csVHV0b3JpYWwsUEFSQQ==" data-listing-date-sort="1764604800000" data-listing-file-modified-sort="1764647701892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="522">
+<a href="../projects/001-test-readme.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://你的用户名.github.io/blog/projects/001-test-cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客
+</h5>
+<div class="card-text listing-description">
+如何使用 Quarto 构建一个支持代码渲染、无需服务器、且拥有 PARA 知识管理架构的现代化个人网站。
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 2, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://你的用户名.github.io/blog/projects/</guid>
+  <pubDate>Tue, 02 Dec 2025 03:55:03 GMT</pubDate>
+</item>
+</channel>
+</rss>
