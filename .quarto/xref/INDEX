@@ -28,5 +28,41 @@
   },
   "projects/001-test-readme.md": {
     "001-test-readme.html": "51bb54cb"
+  },
+  "en/areas.qmd": {
+    "areas.html": "464b146b"
+  },
+  "en/projects.qmd": {
+    "projects.html": "2b48cd19"
+  },
+  "en/index.qmd": {
+    "index.html": "e82fada3"
+  },
+  "en/resources.qmd": {
+    "resources.html": "a79ef048"
+  },
+  "areas/001-test-readme-en.md": {
+    "001-test-readme-en.html": "a91d052f"
+  },
+  "projects/001-test-readme-en.md": {
+    "001-test-readme-en.html": "8281602d"
+  },
+  "resources/001-test-readme-en.qmd": {
+    "001-test-readme-en.html": "770a8a8a"
+  },
+  "areas/001-test-readme-cn.md": {
+    "001-test-readme-cn.html": "0cdc9340"
+  },
+  "分林火山todo.md": {
+    "分林火山todo.html": "650b6f3c"
+  },
+  "en/archives.qmd": {
+    "archives.html": "cbae53d7"
+  },
+  "archives/001-test-readme-en.md": {
+    "001-test-readme-en.html": "9c91cc11"
+  },
+  "archives/001-test-readme-cn.md": {
+    "001-test-readme-cn.html": "a79b4b47"
   }
 }

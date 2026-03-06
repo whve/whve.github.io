@@ -1,0 +1,19 @@
+---
+title: "Quiet as the Forest · Areas"
+listing:
+  contents: "../areas/*-en.{qmd,md}"
+  sort: "date desc"
+  
+  # --- 核心修改 ---
+  type: default
+  image-align: right    # 图片放在右边 (像 Medium/微信公众号列表)
+  image-height: "150px" # 强制限制图片高度，防止长图破坏排版
+  categories: true
+  # 显示阅读时间，增加博客感
+  fields: [image, date, title, description, reading-time, categories] 
+  # ----------------
+  
+page-layout: full
+---
+
+Areas (English): translated notes about long-term areas of focus. Place `-en` files in `../areas/`.

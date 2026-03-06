@@ -1,8 +1,8 @@
 ---
-title: "Resources"
+title: "侵略如火 · Resources"
 listing:
   contents: .
-  sort: "title asc"
+  sort: "date desc"
   type: table
   categories: true
 ---

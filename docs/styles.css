@@ -60,3 +60,22 @@ hr {
     margin-bottom: 3em;
     opacity: 0.2;
 }
+
+/* 20251203 针对 default 布局的图片美化 - 更强的选择器 */
+/* --- 针对 Areas (Default 布局) 的图片美化 --- */
+
+/* 1. 找到 Default 布局下的缩略图 */
+.quarto-listing-default .thumbnail img {
+    border-radius: 10px !important;       /* 强制圆角，数值大一点更明显 */
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.15); /* 加深阴影，保证肉眼可见 */
+    transition: all 0.3s ease-in-out;     /* 动画过渡时间 */
+    object-fit: cover;                    /* 防止图片变形 */
+}
+
+/* 2. 鼠标悬停交互 */
+/* 当鼠标停在这一行文章(.quarto-post)上时，让里面的图片动起来 */
+.quarto-listing-default .quarto-post:hover .thumbnail img {
+    transform: scale(1.05);               /* 放大 1.05 倍 (不用太大，精致点) */
+    box-shadow: 4px 8px 20px rgba(0,0,0,0.25); /* 悬停时阴影加深，制造“浮起”感 */
+}
+

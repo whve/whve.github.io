@@ -1,48 +1,40 @@
 ---
-title: "Standard Output"
-image: profile.jpg
-listing: false         # 【关键】强制关闭列表功能，这是杀手锏
-about:
-  template: jolla
-  image-shape: round
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com
+title: "风林火山 × PARA"
+listing: false
 ---
 
-👋 欢迎来到我的数字花园。这里采用 **PARA** 系统管理知识。
+👋 欢迎来到我的知识作战指挥部。这里以《孙子兵法》的哲学驱动知识的流转。
 
 ---
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### 🚀 [Projects](projects/index.qmd)
-**进行中的项目 / 代码 / 作品**
+### 🌪️ [其疾如风 · Projects](projects/index.qmd)
+**速度与时效**：进行中的项目与限时攻坚战。快速推进，绝不拖泥带水。
 <br>
-[📂 打开文件夹](projects/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+[⚔️ 切入战场](projects/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### 💡 [Areas](areas/index.qmd)
-**长期关注领域 / 深度思考**
+### 🌲 [其徐如林 · Areas](areas/index.qmd)
+**节奏与纪律**：长期维持的责任与领域。在日常中保持秩序，稳步生长。
 <br>
-[📂 打开文件夹](areas/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+[🛡️ 巡视营地](areas/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### 📦 [Resources](resources/index.qmd)
-**知识库 / 笔记 / 速查表**
+### 🔥 [侵略如火 · Resources](resources/index.qmd)
+**能量与转化**：疯狂吸收的知识库与弹药。扩张边界，随时准备爆发。
 <br>
-[📂 打开文件夹](resources/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+[🧨 补充弹药](resources/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### 🗄️ [Archives](archives/index.qmd)
-**历史归档 / 仿佛昨天**
+### ⛰️ [不动如山 · Archives](archives/index.qmd)
+**稳固与沉淀**：历史归档与经验底座。封存过往，构筑不可撼动的根基。
 <br>
-[📂 打开文件夹](archives/index.qmd){.btn .btn-outline-secondary .btn-sm role="button"}
+[📜 查阅卷宗](archives/index.qmd){.btn .btn-outline-secondary .btn-sm role="button"}
 :::
 
 :::

@@ -3,7 +3,6 @@ title: "Markdown 常用语法速查"
 date: 2025-12-03
 categories: [Markdown, Cheatsheet, Efficiency]
 description: "写作中常用的 Markdown 语法及其在 Quarto 中的渲染效果。"
-listing: []
 ---
 
 ## 基础语法

@@ -1,0 +1,14 @@
+---
+title: "Test Resource (EN)"
+date: 2025-12-02
+categories: [example, en]
+---
+
+# Test Resource (English)
+
+This is an example English resource used to verify the `en/resources.qmd` listing. Place real translations in `../resources/` with the `-en` suffix.
+
+## Quick notes
+
+- Keep filename suffix `-en`.
+- Use similar front-matter fields as the source language.

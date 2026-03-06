@@ -1,5 +1,5 @@
 ---
-title: "Archives"
+title: "不动如山 · Archives"
 listing:
   contents:
     - "**/*.{qmd,md}"    # 只抓取当前 archives 文件夹下的文件

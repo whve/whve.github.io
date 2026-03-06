@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>风林火山</title>
+<link>https://whve.github.io/en/resources.html</link>
+<atom:link href="https://whve.github.io/en/resources.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Mon, 01 Dec 2025 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Test Resource (EN)</title>
+  <link>https://whve.github.io/resources/001-test-readme-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="test-resource-english" class="level1">
+<h1>Test Resource (English)</h1>
+<p>This is an example English resource used to verify the <code>en/resources.qmd</code> listing. Place real translations in <code>../resources/</code> with the <code>-en</code> suffix.</p>
+<section id="quick-notes" class="level2">
+<h2 class="anchored" data-anchor-id="quick-notes">Quick notes</h2>
+<ul>
+<li>Keep filename suffix <code>-en</code>.</li>
+<li>Use similar front-matter fields as the source language.</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>example</category>
+  <category>en</category>
+  <guid>https://whve.github.io/resources/001-test-readme-en.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

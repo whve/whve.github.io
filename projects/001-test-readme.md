@@ -3,7 +3,6 @@ title: "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客"
 date: 2025-12-02
 categories: [Quarto, Blog, Tutorial, PARA]
 description: "如何使用 Quarto 构建一个支持代码渲染、无需服务器、且拥有 PARA 知识管理架构的现代化个人网站。"
-listing: []
 image: 001-test-cover.jpg # 建议找一张图放在同级目录，作为本文的封面
 ---
 

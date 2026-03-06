@@ -1,50 +1,77 @@
 [
   {
+    "listing": "/en/resources.html",
+    "items": [
+      "/resources/001-test-readme-en.html"
+    ]
+  },
+  {
+    "listing": "/en/projects.html",
+    "items": [
+      "/projects/001-test-readme-en.html"
+    ]
+  },
+  {
     "listing": "/archives/index.html",
     "items": [
-      "/archives/001-test-readme.html"
-    ]
-  },
-  {
-    "listing": "/resources/001-test-readme.html",
-    "items": [
-      "/resources/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/001-test-readme.html"
-    ]
-  },
-  {
-    "listing": "/areas/index.html",
-    "items": [
-      "/areas/001-test-readme.html"
-    ]
-  },
-  {
-    "listing": "/areas/001-test-readme.html",
-    "items": [
-      "/areas/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/001-test-readme.html",
-    "items": [
-      "/projects/index.html"
+      "/archives/001-test-readme.html",
+      "/archives/001-test-readme-cn.html",
+      "/archives/001-test-readme-en.html"
     ]
   },
   {
     "listing": "/resources/index.html",
     "items": [
-      "/resources/001-test-readme.html"
+      "/resources/001-test-readme.html",
+      "/resources/001-test-readme-en.html"
     ]
   },
   {
-    "listing": "/archives/001-test-readme.html",
+    "listing": "/areas/index.html",
     "items": [
-      "/archives/index.html"
+      "/areas/001-test-readme-cn.html",
+      "/areas/001-test-readme-en.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/001-test-readme-en.html",
+      "/projects/001-test-readme.html"
+    ]
+  },
+  {
+    "listing": "/en/areas.html",
+    "items": [
+      "/areas/001-test-readme-en.html"
+    ]
+  },
+  {
+    "listing": "/分林火山todo.html",
+    "items": [
+      "/en/resources.html",
+      "/areas/001-test-readme-en.html",
+      "/en/archives.html",
+      "/resources/001-test-readme.html",
+      "/en/areas.html",
+      "/en/projects.html",
+      "/projects/001-test-readme-en.html",
+      "/resources/001-test-readme-en.html",
+      "/en/index.html",
+      "/archives/001-test-readme.html",
+      "/archives/index.html",
+      "/projects/001-test-readme.html",
+      "/resources/index.html",
+      "/areas/index.html",
+      "/projects/index.html",
+      "/areas/001-test-readme-cn.html",
+      "/index.html"
+    ]
+  },
+  {
+    "listing": "/en/archives.html",
+    "items": [
+      "/archives/001-test-readme-en.html"
     ]
   }
 ]

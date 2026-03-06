@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "其疾如风 · Projects"
 listing:
   # 这里我建议也改成精确写法，和 Archives 保持一致，防止未来出妖蛾子
   contents:
@@ -8,8 +8,9 @@ listing:
   sort: "date desc"
   type: grid
   categories: true
+  image-placeholder: 001-test-cover.jpg
   fields: [image, date, title, description] # 显式指定显示哪些元素
-
+  image-height: 200px  # 建议固定一个高度，让网格更整齐
 # 【强烈建议加上这行】让网格布局铺满屏幕
 page-layout: full
 ---

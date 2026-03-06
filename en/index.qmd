@@ -1,0 +1,40 @@
+---
+title: "Wind, Forest, Fire, Mountain × PARA"
+listing: false
+---
+
+👋 Welcome to my Knowledge Command Center. Driven by the philosophy of Sun Tzu's *Art of War*.
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### 🌪️ [Swift as the Wind · Projects](projects.qmd)
+**Speed & Timeliness**: Active projects and time-bound sprints. Moving fast with clear closures.
+<br>
+[⚔️ Enter Battlefield](projects.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🌲 [Quiet as the Forest · Areas](areas.qmd)
+**Rhythm & Discipline**: Ongoing responsibilities and domains. Growing steadily in order.
+<br>
+[🛡️ Patrol Camp](areas.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🔥 [Fierce as Fire · Resources](resources.qmd)
+**Energy & Conversion**: High-octane knowledge bases and ammo. Expanding boundaries.
+<br>
+[🧨 Restock Ammo](resources.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### ⛰️ [Immovable as a Mountain · Archives](archives.qmd)
+**Stability & Foundation**: Historical archives and experience. Solidifying the base for future actions.
+<br>
+[📜 Consult Records](archives.qmd){.btn .btn-outline-secondary .btn-sm role="button"}
+:::
+
+:::

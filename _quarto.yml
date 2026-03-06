@@ -3,22 +3,44 @@ project:
   output-dir: docs
 
 website:
-  title: "Standard Output"   # 暂时叫这个，以后随时改
+  title: "Ve Wh"
   site-url: "https://whve.github.io/" 
   navbar:
     right:
-      - text: "Projects"
-        href: projects/index.qmd
-      - text: "Areas"
-        href: areas/index.qmd
-      - text: "Resources"
-        href: resources/index.qmd
-      - text: "Archives"       # 新增这一行
-        href: archives/index.qmd
+      # --- 【中文作战群】下拉菜单 ---
+      - text: "🇨🇳 中文"
+        menu:
+          - text: "🌪️ 疾如风 · Projects"
+            href: projects/index.qmd
+          - text: "🌲 徐如林 · Areas"
+            href: areas/index.qmd
+          - text: "🔥 侵如火 · Resources"
+            href: resources/index.qmd
+          - text: "⛰️ 不动山 · Archives"
+            href: archives/index.qmd
+
+# ==========================================
+      # 🇺🇸 英文作战群 (English Command)
+      # ==========================================
+      - text: "🇺🇸 English"
+        menu:
+          - text: "🏯 Command Center (Home)"   # 【核心新增】跳回好看的英文网格首页
+            href: en/index.qmd
+          - text: "---"                        # 优雅的分割线
+          - text: "🌪️ Swift as the Wind · Projects"
+            href: en/projects.qmd
+          - text: "🌲 Quiet as the Forest · Areas"
+            href: en/areas.qmd
+          - text: "🔥 Fierce as Fire · Resources"
+            href: en/resources.qmd
+          - text: "⛰️ Immovable as a Mountain · Archives"
+            href: en/archives.qmd
+
+      # --- 外部链接 ---
       - icon: github
         href: https://github.com/whve
       - icon: rss
-        href: index.xml
+        href: areas/index.xml
 
 format:
   html:
