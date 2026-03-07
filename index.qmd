@@ -1,40 +1,40 @@
 ---
-title: "风林火山 × PARA"
+title: "Wind, Forest, Fire, Mountain × PARA"
 listing: false
 ---
 
-👋 欢迎来到我的知识作战指挥部。这里以《孙子兵法》的哲学驱动知识的流转。
+👋 Welcome to my Knowledge Command Center. Driven by the philosophy of Sun Tzu's *Art of War*.
 
 ---
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### 🌪️ [其疾如风 · Projects](projects/index.qmd)
-**速度与时效**：进行中的项目与限时攻坚战。快速推进，绝不拖泥带水。
+### 🌪️ [Swift as the Wind · Projects](projects.qmd)
+**Speed & Timeliness**: Active projects and time-bound sprints. Moving fast with clear closures.
 <br>
-[⚔️ 切入战场](projects/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+[⚔️ Enter Battlefield](projects.qmd){.btn .btn-outline-primary .btn-sm role="button"}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### 🌲 [其徐如林 · Areas](areas/index.qmd)
-**节奏与纪律**：长期维持的责任与领域。在日常中保持秩序，稳步生长。
+### 🌲 [Quiet as the Forest · Areas](areas.qmd)
+**Rhythm & Discipline**: Ongoing responsibilities and domains. Growing steadily in order.
 <br>
-[🛡️ 巡视营地](areas/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+[🛡️ Patrol Camp](areas.qmd){.btn .btn-outline-primary .btn-sm role="button"}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### 🔥 [侵略如火 · Resources](resources/index.qmd)
-**能量与转化**：疯狂吸收的知识库与弹药。扩张边界，随时准备爆发。
+### 🔥 [Fierce as Fire · Resources](resources.qmd)
+**Energy & Conversion**: High-octane knowledge bases and ammo. Expanding boundaries.
 <br>
-[🧨 补充弹药](resources/index.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+[🧨 Restock Ammo](resources.qmd){.btn .btn-outline-primary .btn-sm role="button"}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### ⛰️ [不动如山 · Archives](archives/index.qmd)
-**稳固与沉淀**：历史归档与经验底座。封存过往，构筑不可撼动的根基。
+### ⛰️ [Immovable as a Mountain · Archives](archives.qmd)
+**Stability & Foundation**: Historical archives and experience. Solidifying the base for future actions.
 <br>
-[📜 查阅卷宗](archives/index.qmd){.btn .btn-outline-secondary .btn-sm role="button"}
+[📜 Consult Records](archives.qmd){.btn .btn-outline-secondary .btn-sm role="button"}
 :::
 
 :::

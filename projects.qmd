@@ -1,0 +1,17 @@
+---
+title: "Swift as the Wind · Projects"
+listing:
+  contents: "projects/*-en.{qmd,md}"
+  sort: "date desc"
+  type: grid
+  categories: true
+  image-placeholder: profile.png
+  fields: [image, date, title, description, reading-time, categories] # 显式指定显示哪些元素
+  image-height: 200px  # 建议固定一个高度，让网格更整齐
+# 【强烈建议加上这行】让网格布局铺满屏幕
+page-layout: full
+---
+
+Projects (English): this page lists translated project files placed in `projects/` with the `-en` suffix.
+
+Examples: `projects/001-hello-en.qmd`, `projects/002-tooling-en.md`.

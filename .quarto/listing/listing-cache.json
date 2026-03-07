@@ -1,34 +1,38 @@
 {
   "listingMap": {
-    "areas/index.qmd": [
-      "*.{qmd,md}",
-      "!index.qmd"
+    "areas.qmd": [
+      "areas/*-en.{qmd,md}"
     ],
-    "projects/index.qmd": [
-      "*.{qmd,md}",
-      "!index.qmd"
+    "archives.qmd": [
+      "archives/*-en.{qmd,md}"
     ],
-    "resources/index.qmd": [
-      "."
+    "cn/areas.qmd": [
+      "../areas/*-cn.{qmd,md}"
     ],
-    "archives/index.qmd": [
-      "**/*.{qmd,md}",
-      "!index.qmd"
+    "cn/archives.qmd": [
+      "../archives/*-cn.{qmd,md}"
     ],
-    "en/areas.qmd": [
-      "../areas/*-en.{qmd,md}"
+    "cn/projects.qmd": [
+      "../projects/*-cn.{qmd,md}"
     ],
-    "en/projects.qmd": [
-      "../projects/*-en.{qmd,md}"
+    "cn/resources.qmd": [
+      "../resources/*-cn.{qmd,md}"
     ],
-    "en/resources.qmd": [
-      "../resources/*-en.{qmd,md}"
+    "projects.qmd": [
+      "projects/*-en.{qmd,md}"
     ],
     "分林火山todo.md": [
       "B3049D40"
     ],
-    "en/archives.qmd": [
-      "../archives/*-en.{qmd,md}"
+    "resources.qmd": [
+      "resources/*-en.{qmd,md}"
+    ],
+    "timeline.qmd": [
+      "projects/*.{qmd,md}",
+      "areas/*.{qmd,md}",
+      "resources/*.{qmd,md}",
+      "archives/*.{qmd,md}",
+      "!index.qmd"
     ]
   }
 }

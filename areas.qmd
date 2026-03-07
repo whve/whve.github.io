@@ -1,0 +1,17 @@
+---
+title: "Quiet as the Forest · Areas"
+listing:
+  contents: "areas/*-en.{qmd,md}"
+  sort: "date desc"
+  type: grid
+  categories: true
+  image-placeholder: profile.png
+  fields: [image, date, title, description, reading-time, categories] # 显式指定显示哪些元素
+  image-height: 200px  # 建议固定一个高度，让网格更整齐
+# 【强烈建议加上这行】让网格布局铺满屏幕
+page-layout: full
+---
+
+Areas (English): translated notes about long-term areas of focus. Place `-en` files in `areas/`.
+
+

@@ -1,9 +1,0 @@
----
-title: "侵略如火 · Resources"
-listing:
-  contents: .
-  sort: "date desc"
-  type: table
-  categories: true
----
-我的知识库与速查表。

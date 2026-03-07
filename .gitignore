@@ -1,3 +1,48 @@
-/.quarto/
-
 **/*.quarto_ipynb
+
+# ==========================================
+# 1. Quarto 核心缓存与内部状态 (严禁上传)
+# ==========================================
+# 这是 Quarto 编译时产生的临时垃圾，每次 render 都会变，上传会导致无休止的冲突
+/.quarto/
+/_site/      
+
+# ==========================================
+# 2. 操作系统产生的暗地垃圾 (必须拦截)
+# ==========================================
+# Mac 系统自动生成的隐藏缩略图文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows 系统自动生成的缩略图和桌面配置
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+
+# ==========================================
+# 3. 编辑器与 IDE 缓存 (保持代码库纯洁)
+# ==========================================
+# VS Code / Cursor 等编辑器的本地工作区设置
+.vscode/
+*.code-workspace
+
+# RStudio 相关 (如果你未来用它写 R 语言)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Python/Jupyter 相关 (对应你“侵略如火”里的 Python 代码)
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# ==========================================
+# 4. 隐私与密钥配置 (绝对安全底线)
+# ==========================================
+# 永远不要把密码或 API Key 传到 GitHub！
+.env
+.env.local

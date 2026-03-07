@@ -1,0 +1,18 @@
+---
+title: "⏱️ Timeline"
+listing:
+  # Collect all posts from the four main sections (English + any remaining content)
+  contents: 
+    - "projects/*.{qmd,md}"
+    - "areas/*.{qmd,md}"
+    - "resources/*.{qmd,md}"
+    - "archives/*.{qmd,md}"
+    - "!index.qmd"
+  sort: "date desc"
+  type: table        # 用 default 列表模式，最适合当时间线
+  categories: true
+  fields: [image, date, title, description, reading-time, categories]
+page-layout: full
+---
+
+A chronological timeline of the latest updates across the whole site.

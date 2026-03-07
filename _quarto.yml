@@ -1,42 +1,45 @@
 project:
   type: website
-  output-dir: docs
+  # output-dir: docs
 
 website:
   title: "Ve Wh"
   site-url: "https://whve.github.io/" 
   navbar:
     right:
-      # --- 【中文作战群】下拉菜单 ---
+      # --- 🇨🇳 Chinese site under /cn ---
       - text: "🇨🇳 中文"
         menu:
+          - text: "🏯 指挥中心（首页）"
+            href: cn/index.qmd
+          - text: "---"
           - text: "🌪️ 疾如风 · Projects"
-            href: projects/index.qmd
+            href: cn/projects.qmd
           - text: "🌲 徐如林 · Areas"
-            href: areas/index.qmd
+            href: cn/areas.qmd
           - text: "🔥 侵如火 · Resources"
-            href: resources/index.qmd
+            href: cn/resources.qmd
           - text: "⛰️ 不动山 · Archives"
-            href: archives/index.qmd
+            href: cn/archives.qmd
 
-# ==========================================
-      # 🇺🇸 英文作战群 (English Command)
-      # ==========================================
+      # --- 🇺🇸 Default English site ---
       - text: "🇺🇸 English"
         menu:
-          - text: "🏯 Command Center (Home)"   # 【核心新增】跳回好看的英文网格首页
-            href: en/index.qmd
-          - text: "---"                        # 优雅的分割线
+          - text: "🏯 Command Center (Home)"
+            href: index.qmd
+          - text: "---"
           - text: "🌪️ Swift as the Wind · Projects"
-            href: en/projects.qmd
+            href: projects.qmd
           - text: "🌲 Quiet as the Forest · Areas"
-            href: en/areas.qmd
+            href: areas.qmd
           - text: "🔥 Fierce as Fire · Resources"
-            href: en/resources.qmd
+            href: resources.qmd
           - text: "⛰️ Immovable as a Mountain · Archives"
-            href: en/archives.qmd
+            href: archives.qmd
 
-      # --- 外部链接 ---
+      # --- Other links ---
+      - text: "⏱️ Timeline"
+        href: timeline.qmd
       - icon: github
         href: https://github.com/whve
       - icon: rss

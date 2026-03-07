@@ -20,10 +20,10 @@ RSS 好像不好用,可能需要email.
 
 英语:
 Updating to-do list statuses
-I need to mark some tasks as completed in my to-do list using the manage_todo_list tool. Item 1, creating English entry pages, is done. Item 2, updating the navbar, is also complete. For Item 3, adding guidance, I finished adding it in en/index.qmd, so I’ll mark it as complete too. Item 4, verifying and rendering locally, isn’t started yet. After all, I’ll update the list with these statuses.
+I need to mark some tasks as completed in my to-do list using the manage_todo_list tool. Item 1, creating English entry pages, is done. Item 2, updating the navbar, is also complete. For Item 3, adding guidance, I finished adding it in index.qmd, so I’ll mark it as complete too. Item 4, verifying and rendering locally, isn’t started yet. After all, I’ll update the list with these statuses.
 中文:
 更新待办事项状态
-我需要使用 manage_todo_list 工具将我的待办事项列表中的一些任务标记为已完成。项目 1，创建英文入口页面，已经完成。项目 2，更新导航栏，也已完成。对于项目 3，添加指导，我已经在 en/index.qmd 中完成了添加，所以我也将其标记为完成。项目 4，本地验证和渲染，还没有开始。最后，我将使用这些状态更新列表。
+我需要使用 manage_todo_list 工具将我的待办事项列表中的一些任务标记为已完成。项目 1，创建英文入口页面，已经完成。项目 2，更新导航栏，也已完成。对于项目 3，添加指导，我已经在 index.qmd 中完成了添加，所以我也将其标记为完成。项目 4，本地验证和渲染，还没有开始。最后，我将使用这些状态更新列表。
 
 
 这是一个为你定制的 **VS Code Agent Prompt (提示词)**。
@@ -69,11 +69,12 @@ Ensure the project matches this tree:
 ├── archives/            # Graveyard (Old projects)
 │   ├── index.qmd        # Full archive listing
 │   └── ...
-└── en/                  # English Entry Points (Indexes ONLY)
-    ├── index.qmd        # English Homepage
-    ├── projects.qmd     # EN Listing (filters *-en.md from ../projects)
-    ├── areas.qmd        # EN Listing (filters *-en.md from ../areas)
-    └── resources.qmd    # EN Listing (filters *-en.md from ../resources)
+└── cn/                  # Chinese site (indexes + sections)
+    ├── index.qmd        # Chinese homepage
+    ├── projects/        # Chinese project listings (index.qmd + posts)
+    ├── areas/           # Chinese areas
+    ├── resources/       # Chinese resources
+    └── archives/        # Chinese archives
 
 # 3. Key File Templates
 
@@ -99,14 +100,14 @@ page-layout: full
 ---
 ````
 
-## en/projects.qmd (English Listing)
+## projects.qmd (English Listing)
 
 ```yaml
 ---
 title: "Projects"
 listing:
   contents:
-    - "../projects/*-en.{qmd,md}" # Grab English files from parent folder
+    - "projects/*-en.{qmd,md}" # Grab English files under projects/
   sort: "date desc"
   type: grid
   categories: true

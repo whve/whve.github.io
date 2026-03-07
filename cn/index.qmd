@@ -1,0 +1,40 @@
+---
+title: "风林火山 × PARA"
+listing: false
+---
+
+👋 欢迎来到我的知识作战指挥部。这里以《孙子兵法》的哲学驱动知识的流转。
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### 🌪️ [其疾如风 · Projects](projects.qmd)
+**速度与时效**：进行中的项目与限时攻坚战。快速推进，绝不拖泥带水。
+<br>
+[⚔️ 切入战场](projects.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🌲 [其徐如林 · Areas](areas.qmd)
+**节奏与纪律**：长期维持的责任与领域。在日常中保持秩序，稳步生长。
+<br>
+[🛡️ 巡视营地](areas.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🔥 [侵略如火 · Resources](resources.qmd)
+**能量与转化**：疯狂吸收的知识库与弹药。扩张边界，随时准备爆发。
+<br>
+[🧨 补充弹药](resources.qmd){.btn .btn-outline-primary .btn-sm role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### ⛰️ [不动如山 · Archives](archives.qmd)
+**稳固与沉淀**：历史归档与经验底座。封存过往，构筑不可撼动的根基。
+<br>
+[📜 查阅卷宗](archives.qmd){.btn .btn-outline-secondary .btn-sm role="button"}
+:::
+
+:::

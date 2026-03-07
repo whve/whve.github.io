@@ -1,0 +1,15 @@
+---
+title: "其疾如风 · Projects"
+listing:
+  contents:
+    - "../projects/*-cn.{qmd,md}"  # Chinese posts in root projects/ folder
+  sort: "date desc"
+  type: grid
+  categories: true
+  image-placeholder: ../profile.png
+  fields: [image, date, title, description, reading-time, categories] # 显式指定显示哪些元素
+  image-height: 200px  # 建议固定一个高度，让网格更整齐
+# 【强烈建议加上这行】让网格布局铺满屏幕
+page-layout: full
+---
+我的实战项目与代码作品。

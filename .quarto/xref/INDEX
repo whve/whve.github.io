@@ -64,5 +64,80 @@
   },
   "archives/001-test-readme-cn.md": {
     "001-test-readme-cn.html": "a79b4b47"
+  },
+  "timeline.qmd": {
+    "timeline.html": "9c2fe442"
+  },
+  "areas.qmd": {
+    "areas.html": "760f1e5c"
+  },
+  "archives.qmd": {
+    "archives.html": "9ff14310"
+  },
+  "cn/areas/index.qmd": {
+    "index.html": "e6fa5c43"
+  },
+  "cn/projects/index.qmd": {
+    "index.html": "0aa874e8"
+  },
+  "cn/resources/index.qmd": {
+    "index.html": "7ab33be5"
+  },
+  "cn/archives/index.qmd": {
+    "index.html": "e4a893d2"
+  },
+  "cn/index.qmd": {
+    "index.html": "c7ea6ca1"
+  },
+  "projects.qmd": {
+    "projects.html": "5296023f"
+  },
+  "resources.qmd": {
+    "resources.html": "d08903df"
+  },
+  "projects/001-test-readme-cn.md": {
+    "001-test-readme-cn.html": "3bc4066c"
+  },
+  "resources/001-test-readme-cn.qmd": {
+    "001-test-readme-cn.html": "9b75f803"
+  },
+  "archives/001-test-readme-cn-legacy.md": {
+    "001-test-readme-cn-legacy.html": "f44df3a6"
+  },
+  "cn/areas.qmd": {
+    "areas.html": "3a13540e"
+  },
+  "cn/archives.qmd": {
+    "archives.html": "51481bd8"
+  },
+  "cn/projects.qmd": {
+    "projects.html": "944a3bcf"
+  },
+  "cn/resources.qmd": {
+    "resources.html": "afb3d18e"
+  },
+  "areas/001-habits-en.md": {
+    "001-habits-en.html": "904b0f1e"
+  },
+  "areas/001-habits-cn.md": {
+    "001-habits-cn.html": "5d51ab34"
+  },
+  "archives/001-2024-review-en.md": {
+    "001-2024-review-en.html": "0f0b85dd"
+  },
+  "archives/001-2024-review-cn.md": {
+    "001-2024-review-cn.html": "f642fee3"
+  },
+  "projects/001-blog-build-en.md": {
+    "001-blog-build-en.html": "423631fa"
+  },
+  "projects/001-blog-build-cn.md": {
+    "001-blog-build-cn.html": "8ad58fa5"
+  },
+  "resources/001-music-collection-cn.md": {
+    "001-music-collection-cn.html": "95727d1a"
+  },
+  "resources/001-music-collection-en.md": {
+    "001-music-collection-en.html": "4a54ee59"
   }
 }
