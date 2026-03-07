@@ -7,13 +7,13 @@
       "/resources/001-music-collection-en.html",
       "/areas/001-habits-cn.html",
       "/projects/001-blog-build-cn.html",
+      "/projects/001-building-my-command-center-cn.md.html",
       "/projects/001-blog-build-en.html",
       "/areas/001-habits-en.html",
       "/archives/001-2024-review-cn.html",
       "/resources/001-test-readme-cn.html",
       "/archives/001-test-readme-cn-legacy.html",
-      "/projects/001-test-readme-cn.html",
-      "/projects/001-test-readme-en.html",
+      "/projects/p01-quarto-blog-cn.html",
       "/areas/001-test-readme-cn.html",
       "/areas/001-test-readme-en.html",
       "/resources/001-test-readme-en.html",
@@ -24,6 +24,7 @@
   {
     "listing": "/分林火山todo.html",
     "items": [
+      "/inbox/想画图画出孙子兵法.html",
       "/archives/001-2024-review-en.html",
       "/archives/001-2024-review-cn.html",
       "/resources/001-music-collection-en.html",
@@ -36,13 +37,14 @@
       "/areas.html",
       "/projects/001-blog-build-en.html",
       "/projects.html",
-      "/projects/001-test-readme-en.html",
       "/resources/001-test-readme-en.html",
       "/index.html",
       "/archives/001-test-readme-cn-legacy.html",
+      "/inbox/0306readme.html",
       "/timeline.html",
       "/cn/archives.html",
-      "/projects/001-test-readme-cn.html",
+      "/inbox/0306docker.html",
+      "/projects/p01-quarto-blog-cn.html",
       "/cn/resources.html",
       "/cn/areas.html",
       "/cn/projects.html",
@@ -51,14 +53,15 @@
       "/projects/001-blog-build-cn.html",
       "/areas/001-habits-cn.html",
       "/resources/001-music-collection-cn.html",
-      "/cn/index.html"
+      "/cn/index.html",
+      "/projects/001-building-my-command-center-cn.md.html",
+      "/inbox/白血病.html"
     ]
   },
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/001-blog-build-en.html",
-      "/projects/001-test-readme-en.html"
+      "/projects/001-blog-build-en.html"
     ]
   },
   {
@@ -72,7 +75,7 @@
     "listing": "/cn/projects.html",
     "items": [
       "/projects/001-blog-build-cn.html",
-      "/projects/001-test-readme-cn.html"
+      "/projects/p01-quarto-blog-cn.html"
     ]
   },
   {
@@ -87,6 +90,38 @@
     "items": [
       "/areas/001-habits-en.html",
       "/areas/001-test-readme-en.html"
+    ]
+  },
+  {
+    "listing": "/inbox/0306docker.html",
+    "items": [
+      "/inbox/想画图画出孙子兵法.html",
+      "/inbox/0306readme.html",
+      "/inbox/白血病.html"
+    ]
+  },
+  {
+    "listing": "/inbox/白血病.html",
+    "items": [
+      "/inbox/想画图画出孙子兵法.html",
+      "/inbox/0306readme.html",
+      "/inbox/0306docker.html"
+    ]
+  },
+  {
+    "listing": "/inbox/想画图画出孙子兵法.html",
+    "items": [
+      "/inbox/0306readme.html",
+      "/inbox/0306docker.html",
+      "/inbox/白血病.html"
+    ]
+  },
+  {
+    "listing": "/inbox/0306readme.html",
+    "items": [
+      "/inbox/想画图画出孙子兵法.html",
+      "/inbox/0306docker.html",
+      "/inbox/白血病.html"
     ]
   },
   {

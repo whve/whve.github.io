@@ -58,7 +58,7 @@
 </item>
 <item>
   <title>从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客</title>
-  <link>https://whve.github.io/projects/001-test-readme-cn.html</link>
+  <link>https://whve.github.io/projects/p01-quarto-blog-cn.html</link>
   <description><![CDATA[ 
 
 
@@ -898,7 +898,8 @@ font-style: inherit;">](areas/index.qmd)</span>{.btn .btn-outline-primary .btn-s
   <category>Blog</category>
   <category>Tutorial</category>
   <category>PARA</category>
-  <guid>https://whve.github.io/projects/001-test-readme-cn.html</guid>
+  <category>project</category>
+  <guid>https://whve.github.io/projects/p01-quarto-blog-cn.html</guid>
   <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
   <media:content url="https://whve.github.io/projects/001-test-cover.jpg" medium="image" type="image/jpeg"/>
 </item>

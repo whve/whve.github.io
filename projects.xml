@@ -56,26 +56,5 @@
   <guid>https://whve.github.io/projects/001-blog-build-en.html</guid>
   <pubDate>Sun, 01 Mar 2026 16:00:00 GMT</pubDate>
 </item>
-<item>
-  <title>Test Project (EN)</title>
-  <link>https://whve.github.io/projects/001-test-readme-en.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is an example English translation of the test project. It exists to verify that <code>en/projects.qmd</code> correctly picks up files with the <code>-en</code> suffix.</p>
-<p>Features:</p>
-<ul>
-<li>Short description in English.</li>
-<li>Demonstrates <code>-en</code> filename pattern.</li>
-</ul>
-
-
-
- ]]></description>
-  <guid>https://whve.github.io/projects/001-test-readme-en.html</guid>
-  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
-</item>
 </channel>
 </rss>

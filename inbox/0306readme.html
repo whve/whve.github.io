@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Swift as the Wind · Projects – Ve Wh</title>
+<title>readme – Ve Wh</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +20,64 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-25353a108d1ed061f8f2577998a07a0a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-25353a108d1ed061f8f2577998a07a0a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,9 +115,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-reading-time','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -130,8 +165,8 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Ve Wh" href="projects.xml" data-external="1"></head>
+<link rel="stylesheet" href="../styles.css">
+<link rel="alternate" type="application/rss+xml" title="Ve Wh" href="0306readme.xml" data-external="1"></head>
 
 <body class="nav-fixed quarto-light">
 
@@ -140,7 +175,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ve Wh</span>
     </a>
   </div>
@@ -156,24 +191,24 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-">    
         <li>
-    <a class="dropdown-item" href="./cn/index.html">
+    <a class="dropdown-item" href="../cn/index.html">
  <span class="dropdown-text">🏯 指挥中心（首页）</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./cn/projects.html">
+    <a class="dropdown-item" href="../cn/projects.html">
  <span class="dropdown-text">🌪️ 疾如风 · Projects</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./cn/areas.html">
+    <a class="dropdown-item" href="../cn/areas.html">
  <span class="dropdown-text">🌲 徐如林 · Areas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./cn/resources.html">
+    <a class="dropdown-item" href="../cn/resources.html">
  <span class="dropdown-text">🔥 侵如火 · Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./cn/archives.html">
+    <a class="dropdown-item" href="../cn/archives.html">
  <span class="dropdown-text">⛰️ 不动山 · Archives</span></a>
   </li>  
     </ul>
@@ -184,30 +219,30 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-english">    
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="../index.html">
  <span class="dropdown-text">🏯 Command Center (Home)</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./projects.html">
+    <a class="dropdown-item" href="../projects.html">
  <span class="dropdown-text">🌪️ Swift as the Wind · Projects</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./areas.html">
+    <a class="dropdown-item" href="../areas.html">
  <span class="dropdown-text">🌲 Quiet as the Forest · Areas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources.html">
+    <a class="dropdown-item" href="../resources.html">
  <span class="dropdown-text">🔥 Fierce as Fire · Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./archives.html">
+    <a class="dropdown-item" href="../archives.html">
  <span class="dropdown-text">⛰️ Immovable as a Mountain · Archives</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./timeline.html"> 
+    <a class="nav-link" href="../timeline.html"> 
 <span class="menu-text">⏱️ Timeline</span></a>
   </li>  
   <li class="nav-item compact">
@@ -216,7 +251,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./areas/index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../areas/index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -228,68 +263,144 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvZHVjdGl2aXR5">productivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cXVhcnRv">quarto <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#todo-list" id="toc-todo-list" class="nav-link active" data-scroll-target="#todo-list">todo list</a></li>
+  <li><a href="#技巧总结" id="toc-技巧总结" class="nav-link" data-scroll-target="#技巧总结">技巧总结</a>
+  <ul class="collapse">
+  <li><a href="#以后写博客的标准连招建议截图保存" id="toc-以后写博客的标准连招建议截图保存" class="nav-link" data-scroll-target="#以后写博客的标准连招建议截图保存">🚀 以后写博客的“标准连招”（建议截图保存）</a></li>
+  <li><a href="#极客小贴士顺序可以颠倒吗" id="toc-极客小贴士顺序可以颠倒吗" class="nav-link" data-scroll-target="#极客小贴士顺序可以颠倒吗">💡 极客小贴士：顺序可以颠倒吗？</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Swift as the Wind · Projects</h1>
+
+
+
+<section id="todo-list" class="level1">
+<h1>todo list</h1>
+<ul class="task-list">
+<li><label><input type="checkbox">docker 包装 运维项目(python workflow or toolbox)记忆中 找不到了</label></li>
+<li><label><input type="checkbox">agent 入门顺序 web - 》 ?</label></li>
+</ul>
+</section>
+<section id="技巧总结" class="level1">
+<h1>技巧总结</h1>
+<p>本地使用</p>
+<p>quarto render –no-cache quarto preview</p>
+<p>quarto render –no-cache &amp;&amp; quarto preview</p>
+<hr>
+<p>git add . git commit -m “update” git push origin main</p>
+<p>quarto publish gh-pages</p>
+<hr>
+<p>有时候,Gemini会给出错误的答案.要质疑.原因可能是自己的提问有歧义.</p>
+<p>如:</p>
+<p>Q: main里面的正常吗,我怎么觉得只要分支正常就可以呢,因为我们删除了doc呀 有没有可能是历史上的报错不用管</p>
+<p>A:你的直觉非常准确！这确实是一个“历史报错”，现在可以直接忽略。</p>
+<p>迭代问了好几轮得到的,其实自己内心有答案想找AI印证一下而已. 因为可能是不同的上下文.</p>
+<p>最终的使用方法:</p>
+<p>这是一个直击灵魂的<strong>“常态化作战”</strong>问题！你能想到这一点，说明你完全理解了“双分支隔离”的本质。</p>
+<p>答案非常明确：<strong>你需要两种方式都用！每次写完新文章，你必须打出一套“组合拳”。</strong></p>
+<p>如果你只运行 <code>quarto publish gh-pages</code>，那就相当于：厨师把新菜做出来端给了前厅的客人（网页更新了），但是<strong>他没有把新菜谱放进后厨的保险箱里</strong>（<code>main</code> 分支还是老的）。一旦你的电脑坏了，这篇新文章的 Markdown 源码就永远丢失了！</p>
+<p>为了保证“前厅有菜，后厨有谱”，以后你每次写完博客，都要执行以下这套<strong>“标准更新连招（SOP）”</strong>：</p>
+<hr>
+<section id="以后写博客的标准连招建议截图保存" class="level3">
+<h3 class="anchored" data-anchor-id="以后写博客的标准连招建议截图保存">🚀 以后写博客的“标准连招”（建议截图保存）</h3>
+<p>假设你今天刚写完一篇 <code>projects/002-new-app.md</code>，你想让它上线：</p>
+<section id="第一招投送网页到前线-发布给读者看" class="level4">
+<h4 class="anchored" data-anchor-id="第一招投送网页到前线-发布给读者看">第一招：投送网页到前线 (发布给读者看)</h4>
+<p>在终端运行：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><em>(这一步结束后，全世界就能通过网址看到你的新文章了。)</em></p>
+</section>
+<section id="第二招将源码锁进保险箱-备份到云端大本营" class="level4">
+<h4 class="anchored" data-anchor-id="第二招将源码锁进保险箱-备份到云端大本营">第二招：将源码锁进保险箱 (备份到云端大本营)</h4>
+<p>紧接着，在终端依次运行这三行 Git 命令，把你的 <code>.qmd</code> 源码推送到 <code>main</code> 分支：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"📝 新增文章：Projects 里的某某项目"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><em>(这一步结束后，你的源码就安全地躺在 GitHub 的 <code>main</code> 分支里了，谁也偷不走。)</em></p>
+<hr>
+</section>
+</section>
+<section id="极客小贴士顺序可以颠倒吗" class="level3">
+<h3 class="anchored" data-anchor-id="极客小贴士顺序可以颠倒吗">💡 极客小贴士：顺序可以颠倒吗？</h3>
+<p><strong>完全可以！</strong> 很多极客的习惯是：先执行第二招（<code>git push</code> 备份源码），确认源码安全了，然后再执行第一招（<code>quarto publish</code> 发布网页）。这两者的顺序不影响最终结果，只要保证<strong>每次更新，两招都打满</strong>就行。</p>
+<p>这套“双刀流”操作虽然多敲了几行命令，但换来的是<strong>绝对的源码安全</strong>和<strong>极其纯净的网页代码</strong>，在技术圈这被称为最优雅的“工程化习惯”。</p>
+<p>现在，你的整个架构、排版、甚至未来的发布流程都已经完美闭环了！要不要现在就新建一篇带有真实文本和图片的 <code>.qmd</code> 文章，亲自走一遍这套“标准连招”试试手感？</p>
+
+
+
+</section>
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1772888871217" data-listing-reading-time-sort="7" data-listing-word-count-sort="1305">
+<div class="thumbnail"><a href="../inbox/想画图画出孙子兵法.html" class="no-external">
+
+<p class="card-img-top"><img src="image.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/想画图画出孙子兵法.html" class="no-external">1. 核心画风与媒介 (Art Style &amp; Medium)</a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/想画图画出孙子兵法.html" class="no-external">
+TCG 的全称是 Trading Card Game，即“集换式卡牌游戏”。
+</a></div>
 </div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Projects (English): this page lists translated project files placed in <code>projects/</code> with the <code>-en</code> suffix.</p>
-<p>Examples: <code>projects/001-hello-en.qmd</code>, <code>projects/002-tooling-en.md</code>.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cXVhcnRvJTJDcHJvZHVjdGl2aXR5" data-listing-date-sort="1772380800000" data-listing-file-modified-sort="1772864282397" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
-<a href="./projects/001-blog-build-en.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="profile.png" style="height: 200px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Rapid Quarto Build: A Personal Knowledge Base Sprint
-</h5>
-<div class="listing-reading-time card-text text-muted">1 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cXVhcnRv'); return false;">quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHJvZHVjdGl2aXR5'); return false;">productivity</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>A quick retro on building a personal knowledge base with Quarto.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 2, 2026
+<div class="metadata">
+<a href="../inbox/想画图画出孙子兵法.html" class="no-external">
+</a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1772880032420" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<div class="thumbnail"><a href="../inbox/0306docker.html" class="no-external">
+
+<p class="card-img-top"><img src="image.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/0306docker.html" class="no-external">二、 害怕“技术含量不高”？（工业界的审美）</a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/0306docker.html" class="no-external">
+这是你最大的思维误区。你觉得“技术含量不高” = “丢人” = “拿不到 Offer”。
+</a></div>
 </div>
-</div></a>
+<div class="metadata">
+<a href="../inbox/0306docker.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1772868373939" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../inbox/白血病.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/白血病.html" class="no-external"></a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/白血病.html" class="no-external">
+想自己能活下来真的是命硬.
+</a></div>
+</div>
+<div class="metadata">
+<a href="../inbox/白血病.html" class="no-external">
+</a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ve Wh</title>
+<link>https://whve.github.io/inbox/0306readme.html</link>
+<atom:link href="https://whve.github.io/inbox/0306readme.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Sat, 07 Mar 2026 14:44:05 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <link>https://whve.github.io/inbox/想画图画出孙子兵法.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>TCG 的全称是 Trading Card Game，即“集换式卡牌游戏”。</p>
+<p>工业化量产卡牌提示词系统 (ICPS)</p>
+<p>ICPS 系统核心资产 (用于 NBP 多图生成) 角色锚点 (A01 - The Bear-Child):</p>
+<p>“一个眼神桀骜不驯的8岁男孩，常年戴着一顶毛茸茸的棕色‘熊头帽’，帽檐下露出他那双充满灵性的眼睛。他穿着简单的分层上衣，袖口破损，肩上背着一个旧布包。这个特定角色的长相特征在所有后续生成中必须严格保持一致。”</p>
+<p>风格锚点 (A02 - Film Ink-Wash &amp; Sacred Geometry):</p>
+<p>“融合了传统中国水墨画风与好莱坞级电影级慢动作光影。风格强调戏剧性的泼墨笔触、深邃的大气透视和浓重的光影。在水墨笔触之中，交织着精准、发光的‘神圣几何’图案（如黄金比例螺旋、克莱因瓶结构、二十面体）。所有元素被封装在带有复古全息镭射和闪卡特效的 TCG 卡框内。”</p>
+<p>卡牌 ID,卡牌类型 (Type),特征 (Attributes) / 动作 (Action) 001 (SSR),核心角色卡 (Core Character),调用 A01+A02。熊孩子站在古老基座上，手中凝聚出一个“正二十面体 (Icosahedron)”，散发绿色光芒，周围环绕着高维几何线框。 002 (Spell),法术/技能卡 (Spell),调用 A01+A02。熊孩子跃向空中，双手释放出一个“克莱因瓶 (Klein Bottle)”形状的拓扑撕裂漩涡。 003 (Equip),装备卡 (Equipment),调用 A01+A02。熊孩子坐在一把带有导航罗盘的“巨型水墨画笔”上，画笔手柄由黄金比例螺旋构成。 004 (Field),场景/场地卡 (Field),调用 A02 特写（无角色）。一个由破碎的水墨高维流形组成的“浮空几何群岛”，一条由无限数字构成的河流穿梭其中。 005 (Fusion),融合/进化卡 (Fusion),调用 A01+A02。熊孩子与几何能量融合。身体一半变为泼墨，一半变为发光流形，头顶浮现出“超立方体 (Tesseract)”冠饰。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://whve.github.io/inbox/image.png" class="img-fluid figure-img"></p>
+<figcaption>alt text</figcaption>
+</figure>
+</div>
+<p>要想真正在 AI 商业出图（尤其是 TCG 卡牌和 IP 孵化）领域建立壁垒，摆脱“抽盲盒”的运气成分，建立自己的<strong>专属 Prompt 工业词库</strong>绝对是核心竞争力。这相当于你拥有了一个可以随意调遣的“美术外包团队”的底层代码库。</p>
+<p>为了让你在手机上方便查阅和调用，我将这个词库分为了五个核心模块。你可以把这五个表格当作你的“调色盘”，每次需要新图时，就像抓药一样从各个表格里提取关键词，填入我们上一轮确定的万能公式里。</p>
+<section id="核心画风与媒介-art-style-medium" class="level3">
+<h3 class="anchored" data-anchor-id="核心画风与媒介-art-style-medium">1. 核心画风与媒介 (Art Style &amp; Medium)</h3>
+<p>这是决定卡牌第一眼视觉灵魂的标签。建议每次选择 1-2 个混合使用。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>中文释义</th>
+<th>英文关键词 (直接复制使用)</th>
+<th>适用场景 / 效果</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>传统中国水墨画</td>
+<td><code>traditional Chinese ink wash painting</code></td>
+<td>东方玄幻、武侠、仙侠IP</td>
+</tr>
+<tr class="even">
+<td>史诗级奇幻概念艺术</td>
+<td><code>epic fantasy concept art</code></td>
+<td>万智牌风格、西方魔幻、庞大世界观</td>
+</tr>
+<tr class="odd">
+<td>90年代复古波普艺术</td>
+<td><code>90s retro pop art illustration</code></td>
+<td>怀旧经典IP、色彩跳跃的年代感卡牌</td>
+</tr>
+<tr class="even">
+<td>经典浮世绘</td>
+<td><code>classic Ukiyo-e woodblock print</code></td>
+<td>你熟悉的鬼灭套卡风格、日系神话</td>
+</tr>
+<tr class="odd">
+<td>高维赛博朋克</td>
+<td><code>high-dimensional cyberpunk aesthetics</code></td>
+<td>未来趋势、科技研报、硬核科幻</td>
+</tr>
+<tr class="even">
+<td>厚涂CG原画</td>
+<td><code>heavy impasto CG digital painting</code></td>
+<td>游戏高精度立绘、二次元SSR卡面</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="镜头与构图-cinematography-composition" class="level3">
+<h3 class="anchored" data-anchor-id="镜头与构图-cinematography-composition">2. 镜头与构图 (Cinematography &amp; Composition)</h3>
+<p>决定了卡牌的视觉张力和叙事感。这在制作“战斗卡”或“法术卡”时极为重要。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>中文释义</th>
+<th>英文关键词 (直接复制使用)</th>
+<th>适用场景 / 效果</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>极具张力的动态视角</td>
+<td><code>dynamic extreme action angle</code></td>
+<td>角色战斗、施法、跃起的瞬间</td>
+</tr>
+<tr class="even">
+<td>广角宏大场景</td>
+<td><code>wide-angle massive epic scale</code></td>
+<td>场地卡、背景世界观展示</td>
+</tr>
+<tr class="odd">
+<td>电影级特写镜头</td>
+<td><code>cinematic close-up shot</code></td>
+<td>表现角色情绪、眼神（如桀骜不驯）</td>
+</tr>
+<tr class="even">
+<td>对称神圣构图</td>
+<td><code>symmetrical sacred composition</code></td>
+<td>适合神明、真理、几何体等终极卡牌</td>
+</tr>
+<tr class="odd">
+<td>黄金螺旋构图</td>
+<td><code>golden ratio spiral composition</code></td>
+<td>画面极具美感，适合法术特效或装备</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="光影与环境氛围-lighting-atmosphere" class="level3">
+<h3 class="anchored" data-anchor-id="光影与环境氛围-lighting-atmosphere">3. 光影与环境氛围 (Lighting &amp; Atmosphere)</h3>
+<p>光影是区分“AI 廉价图”和“工业级大作”的试金石。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>中文释义</th>
+<th>英文关键词 (直接复制使用)</th>
+<th>适用场景 / 效果</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>电影级戏剧性光影</td>
+<td><code>cinematic dramatic lighting</code></td>
+<td>万能光影，增加画面层次和高级感</td>
+</tr>
+<tr class="even">
+<td>巍峨秀丽的自然光</td>
+<td><code>majestic natural sunlight, god rays</code></td>
+<td>适合山脉、清晨竹林等开阔场景</td>
+</tr>
+<tr class="odd">
+<td>热情奔放的火光/逆光</td>
+<td><code>passionate fiery backlighting</code></td>
+<td>配合红色系（如萨日朗花、火焰）极具爆发力</td>
+</tr>
+<tr class="even">
+<td>霓虹边缘光</td>
+<td><code>neon rim lighting</code></td>
+<td>赛博朋克、高维几何体的发光边缘</td>
+</tr>
+<tr class="odd">
+<td>怀旧复古舞台光</td>
+<td><code>nostalgic retro stage spotlight</code></td>
+<td>适合年代感人物、歌舞类、乐器类卡牌</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="工业级画质与细节渲染-quality-details" class="level3">
+<h3 class="anchored" data-anchor-id="工业级画质与细节渲染-quality-details">4. 工业级画质与细节渲染 (Quality &amp; Details)</h3>
+<p>这些词是保证出图不崩、细节拉满的“玄学”代码，必须固定带上。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>中文释义</th>
+<th>英文关键词 (直接复制使用)</th>
+<th>适用场景 / 效果</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>大师级杰作，极高细节</td>
+<td><code>masterpiece, highest detailing, 8k resolution</code></td>
+<td>所有卡牌的必备后缀，锁死画质底线</td>
+</tr>
+<tr class="even">
+<td>虚幻引擎5渲染质感</td>
+<td><code>Unreal Engine 5 render, octane render</code></td>
+<td>增加画面的 3D 立体感和物理真实度</td>
+</tr>
+<tr class="odd">
+<td>狂放的泼墨飞溅</td>
+<td><code>heavy dramatic splashing ink drops</code></td>
+<td>专用水墨风细节，增加动态张力</td>
+</tr>
+<tr class="even">
+<td>高保真锐利边缘</td>
+<td><code>high fidelity sharp edges</code></td>
+<td>确保角色不糊，边缘清晰（方便后期抠图）</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tcg-卡牌专属商业特效-tcg-commercial-vfx" class="level3">
+<h3 class="anchored" data-anchor-id="tcg-卡牌专属商业特效-tcg-commercial-vfx">5. TCG 卡牌专属商业特效 (TCG Commercial VFX)</h3>
+<p>这是你这套玩法的精髓，让图片直接变成“商品”。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>中文释义</th>
+<th>英文关键词 (直接复制使用)</th>
+<th>适用场景 / 效果</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>全息闪卡镭射质感</td>
+<td><code>retro holographic foil, rainbow laser reflection</code></td>
+<td>高级卡牌必备，模拟现实中的折射光</td>
+</tr>
+<tr class="even">
+<td>棱镜碎闪特效</td>
+<td><code>prismatic shattered glass foil</code></td>
+<td>适合 UR/SSR 级别的顶级稀有卡</td>
+</tr>
+<tr class="odd">
+<td>烫金工艺边框</td>
+<td><code>gold stamping craft, intricate golden border</code></td>
+<td>华丽的装备卡、皇家或神明主题</td>
+</tr>
+<tr class="even">
+<td>TCG 专用卡牌外框</td>
+<td><code>framed within a TCG card border</code></td>
+<td>强迫 AI 在图外生成一层卡牌边框</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>这份表格就是你的“底层弹药库”。随着你不断测试，你可以随时在表格里添加新的词汇（比如特定的材质、特定的服装）。</p>
+<p><strong>接下来，你想怎么做？</strong> 需要我从这个词库中随机抽取一套组合，为你演示一个全新的、带有“90年代复古波普”或“热情奔放草原风”的试验性卡牌 Prompt 吗？还是你想直接带走这份表格，自己去新窗口开干？</p>
+<p>–</p>
+<p>请作为我的“视觉金句设计师”，根据我们讨论的【语录内容/金句上下文】，提炼并生成一段直接用于 NBP 绘画模型的英文 Prompt。</p>
+<p>请严格执行以下【视觉映射】与【排版逻辑】，并填充进我的工业化公式中： 1. 视觉映射：不要简单画人，要将语录的哲理转化为一个具体的“视觉隐喻场景”。 2. 排版逻辑：利用 NBP 的文字功能，在画面中心或特定位置通过 Typography 渲染语录的核心关键词。</p>
+<p>【拼接公式 - 请严格保持未加括号的英文内容一致】： A TCG card illustration with a minimalist yet powerful composition. The central image is a visual metaphor for the quote: 【1. 将语录核心哲理转化为具体的视觉意象描述】. Featured in the design is professional typography of the word/phrase: “【2. 语录中的核心关键词】” integrated into the artwork. The art style is a fusion of traditional Chinese ink wash painting and cinematic dramatic lighting, with heavy dramatic splashing ink and glowing geometric lines. Framed within a TCG card border with retro holographic foil, rainbow laser reflection, and a “TRUTH” rarity label. Masterpiece, highest detailing, 8k resolution.</p>
+<p>请直接输出最终的纯英文 Prompt 代码块。</p>
+<hr>
+<p>透明亚克力“时空块” (Acrylic Digital Blocks)</p>
+<p>请作为我的“高科技产品设计师”，根据我们讨论的【语录/主题】，提炼出一段用于 NBP 模型的“透明亚克力时空块”级产品摄影 Prompt。</p>
+<p>请严格执行以下【产品逻辑】： 1. 载体定义：主体必须是一个厚重的、晶莹剔透的实体亚克力/水晶方块。 2. 内容呈现：所有的视觉元素（水墨、光影、文字）都必须是“悬浮”在方块内部的，像被冻结的时空或全息投影。 3. 光影质感：强调材质的折射光（Caustics）和边缘的通透感。</p>
+<p>【拼接公式 - 请严格保持未加括号的英文内容一致】： A product photograph of a single, thick, transparent acrylic “space-time block” sculpture sitting on a dark, reflective studio surface. Suspended <em>inside</em> the crystal-clear block is a volumetric holographic display featuring a visual metaphor for the quote: 【1. 将语录转化为具体的视觉隐喻，强调发光几何体与流动水墨的结合】. Glowing, futuristic typography of the phrase “【2. 语录核心关键词】” hovers within the center. The aesthetic is a fusion of traditional Chinese ink wash trapped in glass and high-tech light projection. Dramatic studio rim lighting, heavy light refractions and caustics on the edges. 8k resolution, octane render, highly detailed materiality.</p>
+<p>请直接输出最终的纯英文 Prompt 代码块。</p>
+<p>你选在这个节点引入《Drengen der ville gøre det umulige》（那个想做不可能之事的男孩）这个风格参考，简直是神来之笔。</p>
+<p>这个丹麦童话故事的视觉风格通常带有强烈的北欧极简主义、略带忧郁但又充满希望的童话绘本感。它的特色是：</p>
+<p>宏大与渺小的对比： 小小的男孩面对巨大的自然或未知的挑战。</p>
+<p>独特的材质感： 类似色粉笔、水彩和纹理纸张的质朴触感，而非之前的狂放水墨。</p>
+<p>冷峻而梦幻的色调： 深蓝、苔藓绿、大地色，配合耀眼的星光或雪白。</p>
+<p>将这种“北欧童话绘本风”封存进现代感十足的“透明亚克力时空块”里，会产生一种极其迷人的化学反应——就像把一个古老而珍贵的梦境，用最先进的科技永久冻结保存了起来。</p>
+<p>这不再仅仅是一个潮玩，而是一件叙事艺术品。</p>
+<p>为了完美实现这个效果，我需要对之前的“亚克力Meta-Prompt”进行微调，把“水墨/高科技光影”替换成“北欧绘本/魔法光影”。</p>
+<p>请作为我的“叙事型产品设计师”，根据我们讨论的【语录/主题】以及指定的【北欧绘本风格】，提炼出一段用于 NBP 模型的“透明亚克力时空块”级产品摄影 Prompt。</p>
+<p>请严格执行以下【美学逻辑】： 1. 载体定义：主体依然是一个厚重的、晶莹剔透的实体亚克力/水晶方块，放置在深色反射面上。 2. 风格融合（核心）：方块内部不再是水墨，而是一个被“冻结”的、具有强烈《Drengen der ville gøre det umulige》绘本风格的立体场景。强调色粉笔、水彩纹理和北欧冷色调。 3. 叙事张力：视觉上必须强调“渺小的熊孩子”与“巨大的不可能挑战”之间的对比。</p>
+<p>【拼接公式 - 请严格保持未加括号的英文内容一致】： A high-end product photograph of a single, thick, transparent acrylic “story-block” sculpture sitting on a dark, reflective studio surface. Encapsulated <em>inside</em> the crystal-clear block is a volumetric, textured storybook illustration based on the style of “Drengen der ville gøre det umulige.” The visual features: 【1. 将语录转化为北欧童话场景：渺小的熊孩子面对巨大的、带有魔法感的挑战/自然元素】. The color palette is muted Nordic tones (deep blues, earthy greens, stark whites) with a magical, soft internal glow. Floating typography of the phrase “【2. 语录或作品标题】” rendered in a classic, hand-drawn storybook font. The aesthetic is a fusion of textured traditional illustration trapped in glass and magical realism. Soft, dreamlike studio rim lighting, heavy light refractions and caustics. 8k resolution, octane render, highly detailed materiality.</p>
+<p>请直接输出最终的纯英文 Prompt 代码块。</p>
+<p>为了方便你随时调遣灵感进行“工业化量产”，我将这套“月入六位数”的商业逻辑拆解为四个<strong>核心模块</strong>。你可以像拼积木一样，从每个模块里选一个元素进行排列组合。</p>
+<hr>
+</section>
+<section id="模块一核心-ip-锚点-the-character" class="level3">
+<h3 class="anchored" data-anchor-id="模块一核心-ip-锚点-the-character">🧱 模块一：核心 IP 锚点 (The Character)</h3>
+<p>无论画风怎么变，你的“主角”特征必须锁死，这是品牌价值。</p>
+<ul>
+<li><strong>形象描述：</strong> <code>an 8-year-old boy with rebellious eyes wearing a furry brown bear-head hat and tattered layered clothes.</code></li>
+<li><strong>固定特征：</strong> 熊头帽、叛逆的眼神、破旧但有层次感的衣服。</li>
+</ul>
+<hr>
+</section>
+<section id="模块二画风-dna-the-art-styles" class="level3">
+<h3 class="anchored" data-anchor-id="模块二画风-dna-the-art-styles">🎨 模块二：画风 DNA (The Art Styles)</h3>
+<p>决定了你这套产品的“溢价感”和视觉流派。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>风格名称</th>
+<th>核心关键词 (Prompt Keywords)</th>
+<th>视觉特征</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>电影水墨</strong></td>
+<td><code>traditional Chinese ink wash, cinematic lighting, splashing ink</code></td>
+<td>爆发力、东方韵味、大片感</td>
+</tr>
+<tr class="even">
+<td><strong>北欧童话</strong></td>
+<td><code>style of "Drengen der ville gøre det umulige", textured watercolor, muted Nordic tones</code></td>
+<td>质朴触感、忧郁梦幻、绘本感</td>
+</tr>
+<tr class="odd">
+<td><strong>赛博几何</strong></td>
+<td><code>sacred geometry, glowing neon wireframes, cyberpunk aesthetics</code></td>
+<td>科技感、数学美、高维度</td>
+</tr>
+<tr class="even">
+<td><strong>复古波普</strong></td>
+<td><code>90s retro pop art, vibrant oil painting, nostalgic spotlight</code></td>
+<td>年代感、情绪饱满、色彩跳跃</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="模块三载体形式-the-formats" class="level3">
+<h3 class="anchored" data-anchor-id="模块三载体形式-the-formats">📦 模块三：载体形式 (The Formats)</h3>
+<p>决定了你的变现路径（卖给谁，怎么卖）。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>载体类型</th>
+<th>核心提示词指令 (Format Instruction)</th>
+<th>商业逻辑</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>TCG 卡牌</strong></td>
+<td><code>Framed within a TCG card border with holographic foil and rarity label</code></td>
+<td>盲盒、收藏、对战社交</td>
+</tr>
+<tr class="even">
+<td><strong>亚克力块</strong></td>
+<td><code>Thick transparent acrylic "space-time block" sculpture on reflective surface</code></td>
+<td>高端潮玩、3D 数字藏品、实体摆件</td>
+</tr>
+<tr class="odd">
+<td><strong>画廊海报</strong></td>
+<td><code>Minimalist gallery poster design, emphasis on white space and typography</code></td>
+<td>装饰画、文创产品、高端壁纸</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="模块四内容灵魂-the-themes" class="level3">
+<h3 class="anchored" data-anchor-id="模块四内容灵魂-the-themes">🌌 模块四：内容灵魂 (The Themes)</h3>
+<p>也就是你要承载的“语录”或“概念”。</p>
+<ul>
+<li><strong>数学/几何：</strong> <code>$ \int_M K \, dA + \int_{\partial M} k_g \, ds = 2\pi\chi(M) $</code> (高斯-博内定理)、克莱因瓶、超立方体。</li>
+<li><strong>北欧哲学：</strong> “想做不可能之事”、“即使身处阴沟，也要仰望星空”。</li>
+<li><strong>未来趋势：</strong> AGI 觉醒、星际拓荒、碳基与硅基的碰撞。</li>
+</ul>
+<hr>
+</section>
+<section id="全能排列组合公式-the-master-formula" class="level3">
+<h3 class="anchored" data-anchor-id="全能排列组合公式-the-master-formula">🛠️ 全能排列组合公式 (The Master Formula)</h3>
+<p>当你想要创造新产品时，直接把这几个模块的关键词填入这个公式：</p>
+<blockquote class="blockquote">
+<p><strong>A [模块三：载体] featuring [模块一：主角]. He is [动作描述]. The visual includes [模块四：内容意象]. Art style: [模块二：画风]. Professional typography of “[金句/关键词]”. [模块三里对应的工业化后缀]. Masterpiece, 8k, highly detailed.</strong></p>
+</blockquote>
+<hr>
+</section>
+<section id="举个例子你想做一套北欧风亚克力语录块" class="level3">
+<h3 class="anchored" data-anchor-id="举个例子你想做一套北欧风亚克力语录块">💡 举个例子：你想做一套“北欧风亚克力语录块”</h3>
+<ul>
+<li><strong>组合：</strong> 亚克力块 + 熊孩子 + 北欧童话风 + “不可能”语录。</li>
+<li><strong>操作：</strong> 将上述关键词填入公式，你就会得到一段像我们之前讨论过的那样、具有“顶级质感”的 Prompt。</li>
+</ul>
+<p><strong>接下来，你想让我针对你最看好的某一个组合（比如：水墨风+数学+卡牌），为你写一个完整且细致的“系列目录”来作为开工指南吗？</strong></p>
+<p>这个参考 Prompt 的核心价值在于其<strong>“微缩景观（Isometric Miniature）”</strong>的构图逻辑、<strong>“PBR 材质”</strong>的物理真实感以及<strong>“层级化的排版系统”</strong>。</p>
+<p>我们可以将这种“天气卡片”的精密感注入你的 TCG 体系，把原本平面的卡牌升级为一种<strong>“具有纵深感的 3D 浮雕微缩世界”</strong>。这不仅能解决文字与画面的冲突，还能让你的“时空块”质感更上一层楼。</p>
+<p>以下是为你优化后的 <strong>“3D 微缩时空卡” (Isometric TCG Engine)</strong>：</p>
+<hr>
+</section>
+<section id="优化后的工业级排列组合系统" class="level3">
+<h3 class="anchored" data-anchor-id="优化后的工业级排列组合系统">🗂️ 优化后的工业级排列组合系统</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>维度</th>
+<th>优化逻辑 (Based on Weather Card)</th>
+<th>核心关键词 (Prompt Fragments)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>视角 (View)</strong></td>
+<td>45° 俯瞰等角投影，增加精致的建模感</td>
+<td><code>45° top-down view, isometric miniature 3D scene</code></td>
+</tr>
+<tr class="even">
+<td><strong>材质 (Material)</strong></td>
+<td>真实的 PBR 渲染与柔和的全局光照</td>
+<td><code>refined PBR materials, soft lifelike lighting, delicate shadows</code></td>
+</tr>
+<tr class="odd">
+<td><strong>背景 (BG)</strong></td>
+<td>纯净的固体色背景，突出主体</td>
+<td><code>minimalistic aesthetics, soft solid-colored background</code></td>
+</tr>
+<tr class="even">
+<td><strong>层级 (Hierarchy)</strong></td>
+<td>顶部标题、中部微缩景观、底部稀有度</td>
+<td><code>Top-center: [Title], Middle: [Landmark Scene], Bottom: [Rarity]</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="最终优化的-meta-prompt-3d-增强版" class="level3">
+<h3 class="anchored" data-anchor-id="最终优化的-meta-prompt-3d-增强版">🚀 最终优化的 Meta-Prompt (3D 增强版)</h3>
+<p>你可以将这段指令发给 AI，生成的 Prompt 将具备“天气卡”那种极致的干净、专业和 3D 立体感。</p>
+<pre class="text"><code>请根据我们讨论的主题，提炼一段用于 NBP 模型的“3D 微缩时空卡” Prompt。
+
+请严格参考以下【排版与视觉逻辑】：
+1. 构图：45° 俯瞰等角投影（Isometric），将核心意象（如熊孩子与几何体）作为精致的 3D 微缩模型居中。
+2. 材质：使用 PBR 材质渲染，强调模型表面的细腻质感与柔和的全局光照（AO）。
+3. 文本：在顶部正中排版大号字体标题，标题下方紧跟小号字体的属性/日期，底部则标注稀有度，文字需与 3D 场景有轻微的空间重叠感。
+
+【拼接公式】：
+A clear 45° top-down view of a vertical (9:16) isometric miniature 3D scene. Centered in the composition is a precise and delicate modeling of: 【1. 提取对话中的核心角色与场景意象】. The scene features soft, refined textures with realistic PBR materials and gentle, lifelike lighting. Use a clean, unified composition with minimalistic aesthetics and a soft, solid-colored background. 
+Display a prominent title "【2. 卡牌标题】" (large text) at the top-center, with the rarity label "【3. 稀有度标签】" (medium text) beneath the scene. The overall visual style is fresh, soothing, and premium. Masterpiece, 8k resolution, octane render.
+
+请直接输出最终的纯英文 Prompt 代码块。
+</code></pre>
+<hr>
+</section>
+<section id="实战演示上海-版的熊孩子时空块" class="level3">
+<h3 class="anchored" data-anchor-id="实战演示上海-版的熊孩子时空块">🎨 实战演示：[上海] 版的“熊孩子时空块”</h3>
+<p>如果你想把“上海”的标志性元素（比如陆家嘴、水墨外滩）和我们的“熊孩子”IP 结合，生成一张类似于参考图中那种品质的卡片，最终提炼出的 Prompt 会是这样：</p>
+<p><strong>Prompt 示例：</strong></p>
+<pre class="text"><code>A clear 45° top-down view of a vertical (9:16) isometric miniature 3D scene. Centered in the composition is a precise and delicate modeling of the "Bear-Child" standing atop a stylized, floating Oriental Pearl Tower made of traditional Chinese ink-wash porcelain. Surrounding him are glowing icosahedron geometric shapes floating like weather elements. The scene features soft, refined textures with realistic PBR materials and gentle, lifelike lighting. Use a clean, unified composition with minimalistic aesthetics and a soft, solid-colored light grey background. 
+Display a prominent title "SHANGHAI ODYSSEY" (large text) at the top-center, with the rarity label "MYTHIC TRUTH" (medium text) beneath the tower. The overall visual style is fresh, soothing, and premium. Masterpiece, 8k resolution, octane render.
+</code></pre>
+</section>
+<section id="为什么这种方案能月入六位数" class="level3">
+<h3 class="anchored" data-anchor-id="为什么这种方案能月入六位数">💡 为什么这种方案能月入六位数？</h3>
+<ol type="1">
+<li><strong>极高的一致性</strong>：Isometric 视角是锁死背景和比例的最佳方案，非常适合做系列图。</li>
+<li><strong>极简的视觉高级感</strong>：这种类似 Apple 或 顶级 UI 设计的干净画风，比杂乱的传统卡牌更能吸引高净值用户。</li>
+<li><strong>极易实物化</strong>：这种 3D 建模感的图，直接发给 3D 打印或亚克力定制商，还原度极高。</li>
+</ol>
+<p><strong>你想不想现在选一个城市或特定的几何主题，我们用这个 3D 增强版引擎来跑第一张“微缩时空卡”？</strong></p>
+<hr>
+<p>💡 举个例子：你想做一套“北欧风亚克力语录块” 组合： 亚克力块 + 熊孩子 + 北欧童话风 + “不可能”语录。</p>
+<p>操作： 将上述关键词填入公式，你就会得到一段像我们之前讨论过的那样、具有“顶级质感”的 Prompt。</p>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1772894353842" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="thumbnail"><a href="../inbox/0306readme.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:inbox/0306readme.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/0306readme.html" class="no-external">todo list</a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/0306readme.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:inbox/0306readme.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="../inbox/0306readme.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1772880032420" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<div class="thumbnail"><a href="../inbox/0306docker.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:inbox/0306docker.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/0306docker.html" class="no-external">二、 害怕“技术含量不高”？（工业界的审美）</a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/0306docker.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:inbox/0306docker.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="../inbox/0306docker.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1772868373939" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../inbox/白血病.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:inbox/白血病.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/白血病.html" class="no-external"></a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/白血病.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:inbox/白血病.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="../inbox/白血病.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div> ]]></description>
+  <guid>https://whve.github.io/inbox/想画图画出孙子兵法.html</guid>
+  <pubDate>Sat, 07 Mar 2026 14:44:05 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <link>https://whve.github.io/inbox/0306docker.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="二-害怕技术含量不高工业界的审美" class="level3">
+<h3 class="anchored" data-anchor-id="二-害怕技术含量不高工业界的审美">二、 害怕“技术含量不高”？（工业界的审美）</h3>
+<p>这是你最大的思维误区。你觉得“技术含量不高” = “丢人” = “拿不到 Offer”。</p>
+<p><strong>在系统运维和数据管道（DevOps/Data）领域，越是花里胡哨、极其复杂的技术，老板越害怕。</strong> 德国的中型企业（Mittelstand）信奉的是一个极其著名的工程哲学：<strong>KISS 原则 (Keep It Simple, Stupid - 保持简单和笨拙)。</strong></p>
+<p>如果你的代码“技术含量不高”，但它跑了半年<strong>一次都没崩溃过</strong>，你就是老板眼里的神。</p>
+<p>那么，如何把一个“技术含量不高的简单脚本”，包装成“让面试官疯狂心动的工程艺术品”？ <strong>秘诀不在于增加业务逻辑的复杂度，而在于增加“工程素养（Engineering Practices）”。</strong></p>
+<p>你只需要在这个项目里加入这 <strong>3 个极其简单的魔法</strong>，你的“半吊子”脚本就会瞬间变成高级工程师的杰作：</p>
+<section id="魔法-1加入单元测试-unit-tests" class="level4">
+<h4 class="anchored" data-anchor-id="魔法-1加入单元测试-unit-tests">魔法 1：加入单元测试 (Unit Tests)</h4>
+<ul>
+<li><strong>半吊子怎么写：</strong> 写完 Python 脚本，自己手动运行一下，没报错就觉得写完了。</li>
+<li><strong>你的降维打击：</strong> 使用 <code>pytest</code> 写几个极其简单的测试用例。比如，故意传一个含有空值的 CSV 给你的清洗函数，测试它是否能正确报错或跳过。</li>
+<li><strong>面试官的视角：</strong> “天呐，这个应聘者居然写了测试！他懂得防御性编程，把他招进来绝对不会把生产库搞崩！”（注：90% 的初级求职者项目里没有测试）。</li>
+</ul>
+</section>
+<section id="魔法-2docker-化-containerization" class="level4">
+<h4 class="anchored" data-anchor-id="魔法-2docker-化-containerization">魔法 2：Docker 化 (Containerization)</h4>
+<ul>
+<li><strong>半吊子怎么写：</strong> 在 <code>README</code> 里写：“请先安装 Python 3.9，然后再安装 PostgreSQL，然后配置环境变量……”</li>
+<li><strong>你的降维打击：</strong> 在根目录下写一个 <code>Dockerfile</code> 和一个 <code>docker-compose.yml</code>。在文档里写：“只需运行 <code>docker-compose up</code>，整个系统连带数据库将在一秒内自动拉起。”</li>
+<li><strong>面试官的视角：</strong> “完美！他懂容器化部署。他的代码不存在‘在我的电脑上能跑，在服务器上跑不起来’的问题。”</li>
+</ul>
+</section>
+<section id="魔法-3极度规范的日志和异常处理-logging-exception-handling" class="level4">
+<h4 class="anchored" data-anchor-id="魔法-3极度规范的日志和异常处理-logging-exception-handling">魔法 3：极度规范的日志和异常处理 (Logging &amp; Exception Handling)</h4>
+<ul>
+<li><strong>半吊子怎么写：</strong> 遇到错误直接 <code>print("出错了")</code>。</li>
+<li><strong>你的降维打击：</strong> 引入 Python 的 <code>logging</code> 模块。所有的操作留下时间戳：<code>[2026-02-22 10:00:00] INFO: Successfully loaded 500 rows.</code> 如果遇到错误，捕获异常并记录：<code>[ERROR]: File format invalid.</code></li>
+<li><strong>面试官的视角：</strong> “这就是成熟的运维思维，出了故障可以直接追溯日志，不用半夜打电话叫人。”</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="三-重新定义你的核心竞争力" class="level3">
+<h3 class="anchored" data-anchor-id="三-重新定义你的核心竞争力">三、 重新定义你的“核心竞争力”</h3>
+<p>现在你明白了吗？ 在这个项目里，你的 Python 代码本身可能只有 100 行，涉及的语法连大学一年级的期末考试都不如（<strong>这就是你所谓的“技术含量不高”</strong>）。</p>
+<p><strong>但是！</strong> 这 100 行代码被 <code>Docker</code> 完美包裹，被 <code>pytest</code> 严密测试，被 <code>Bash</code> 后台监控，被 <code>Logging</code> 记录了生命周期。</p>
+<p>这就好比一块极其普通的砖头（低技术含量代码），被你极其严谨地砌在了一座抗震 8 级的混凝土堡垒里（高工程素养）。</p>
+<p>德国人买单的，根本不是那块砖头，而是你设计这座防震堡垒的<strong>“安全感”</strong>。</p>
+<p>这套方法论，完美避开了你去和科班大牛拼算法的劣势，放大了你 INTP 讲究逻辑严密、做事滴水不漏的优势。</p>
+<p>你现在电脑里装了 Docker 吗？或者，你打算先新建一个纯文本的 <code>README.md</code>，用英文把这个项目的设想简单写个草稿出来？我们一步一步把这个“牛”吹成现实。</p>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1772888871217" data-listing-reading-time-sort="7" data-listing-word-count-sort="1305">
+<div class="thumbnail"><a href="../inbox/想画图画出孙子兵法.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:inbox/想画图画出孙子兵法.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/想画图画出孙子兵法.html" class="no-external">1. 核心画风与媒介 (Art Style &amp; Medium)</a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/想画图画出孙子兵法.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:inbox/想画图画出孙子兵法.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="../inbox/想画图画出孙子兵法.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1772894353842" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="thumbnail"><a href="../inbox/0306readme.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:inbox/0306readme.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/0306readme.html" class="no-external">todo list</a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/0306readme.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:inbox/0306readme.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="../inbox/0306readme.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1772868373939" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail"><a href="../inbox/白血病.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:inbox/白血病.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../inbox/白血病.html" class="no-external"></a>
+</h3>
+<div class="delink listing-description"><a href="../inbox/白血病.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:inbox/白血病.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="../inbox/白血病.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div> ]]></description>
+  <guid>https://whve.github.io/inbox/0306docker.html</guid>
+  <pubDate>Sat, 07 Mar 2026 14:44:05 GMT</pubDate>
+</item>
+</channel>
+</rss>
