@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ve Wh</title>
+<link>https://whve.github.io/cn/archives.html</link>
+<atom:link href="https://whve.github.io/cn/archives.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Sat, 28 Feb 2026 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>2024 年回顾：旧笔记迁移与经验沉淀</title>
+  <link>https://whve.github.io/archives/001-2024-review-cn.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="迁移回顾" class="level2">
+<h2 class="anchored" data-anchor-id="迁移回顾">迁移回顾</h2>
+<p>2024 年底，我把旧笔记软件的内容迁移到用 Quarto 构建的档案系统中。这过程中既有 <strong>清理</strong>、<strong>分类</strong>，也有<strong>保留历史</strong>的考量。</p>
+<ul>
+<li>尽可能导出为 Markdown</li>
+<li>按主题与时间打标签</li>
+<li>放弃过时内容，保留仍有价值的部分</li>
+</ul>
+</section>
+<section id="值得保留的内容" class="level2">
+<h2 class="anchored" data-anchor-id="值得保留的内容">值得保留的内容</h2>
+<p>并不是所有东西都要搬过去。最有价值的部分是：</p>
+<ul>
+<li>项目中的关键经验</li>
+<li>仍然有启发性的想法片段</li>
+<li>永不过时的框架与参考</li>
+</ul>
+</section>
+<section id="档案的意义" class="level2">
+<h2 class="anchored" data-anchor-id="档案的意义">档案的意义</h2>
+<p>档案不是一个堆积场，而是 <strong>活的记忆</strong>。我会定期回顾：</p>
+<ul>
+<li>刷新长期视角</li>
+<li>在新的场景中复用旧思考</li>
+<li>庆祝进步而不沉迷怀旧</li>
+</ul>
+<p>这次迁移是把历史留存下来，同时为新的创作腾出空间的关键一步。</p>
+
+
+</section>
+
+ ]]></description>
+  <category>档案</category>
+  <category>反思</category>
+  <guid>https://whve.github.io/archives/001-2024-review-cn.html</guid>
+  <pubDate>Sat, 28 Feb 2026 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>日记</title>
+  <link>https://whve.github.io/archives/001-test-readme-cn.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="日记" class="level2">
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">配置 PARA 架构</label></li>
+<li><label><input type="checkbox">发布到 GitHub</label></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Life</category>
+  <category>Test</category>
+  <guid>https://whve.github.io/archives/001-test-readme-cn.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

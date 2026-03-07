@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ve Wh</title>
+<link>https://whve.github.io/cn/resources.html</link>
+<atom:link href="https://whve.github.io/cn/resources.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Thu, 05 Mar 2026 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>音乐资源库：70-90 年代经典流行与民歌赏析</title>
+  <link>https://whve.github.io/resources/001-music-collection-cn.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="收藏清单构建" class="level2">
+<h2 class="anchored" data-anchor-id="收藏清单构建">收藏清单构建</h2>
+<p>我开始整理一个<strong>音乐资源库</strong>，聚焦 70-90 年代流行音乐和传统民歌，例如《沂蒙山小调》。这是一个兼具情感和历史价值的音频档案。</p>
+<ul>
+<li>尽量收集高质量音源</li>
+<li>记录精彩演绎与背后故事</li>
+<li>加上歌词与译文的链接</li>
+</ul>
+</section>
+<section id="这一时期的意义" class="level2">
+<h2 class="anchored" data-anchor-id="这一时期的意义">这一时期的意义</h2>
+<p>那个年代的音乐有着 <strong>强烈的共鸣</strong>：无论是流行歌手的动听旋律，还是民歌里的乡土情怀，都是时代的缩影。</p>
+<ul>
+<li>记忆点强的流行旋律</li>
+<li>根植于土地的民歌精神</li>
+<li>音乐连接不同世代</li>
+</ul>
+</section>
+<section id="如何使用这个资源" class="level2">
+<h2 class="anchored" data-anchor-id="如何使用这个资源">如何使用这个资源</h2>
+<p>我把它作为灵感来源和创作素材：</p>
+<ul>
+<li>在专注工作时播放</li>
+<li>用歌词做写作触发点</li>
+<li>分享给朋友激发讨论</li>
+</ul>
+<p>这个资源既是怀旧的实验室，也是持续 <strong>灵感来源</strong>，提醒我音乐在知识体系里也是重要的一环。</p>
+
+
+</section>
+
+ ]]></description>
+  <category>音乐</category>
+  <category>灵感</category>
+  <guid>https://whve.github.io/resources/001-music-collection-cn.html</guid>
+  <pubDate>Thu, 05 Mar 2026 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Markdown 常用语法速查</title>
+  <link>https://whve.github.io/resources/001-test-readme-cn.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="基础语法" class="level2">
+<h2 class="anchored" data-anchor-id="基础语法">基础语法</h2>
+<p>这是一份备忘录。</p>
+<section id="文本样式" class="level3">
+<h3 class="anchored" data-anchor-id="文本样式">1. 文本样式</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">语法</th>
+<th style="text-align: left;">效果</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>**Bold**</code></td>
+<td style="text-align: left;"><strong>Bold</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>*Italic*</code></td>
+<td style="text-align: left;"><em>Italic</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>~~Delete~~</code></td>
+<td style="text-align: left;"><del>Delete</del></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="代码块" class="level3">
+<h3 class="anchored" data-anchor-id="代码块">2. 代码块</h3>
+<p>Quarto 对代码块的支持非常完美：</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Markdown</category>
+  <category>Cheatsheet</category>
+  <category>Efficiency</category>
+  <guid>https://whve.github.io/resources/001-test-readme-cn.html</guid>
+  <pubDate>Tue, 02 Dec 2025 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

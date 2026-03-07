@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ve Wh</title>
+<link>https://whve.github.io/projects.html</link>
+<atom:link href="https://whve.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Sun, 01 Mar 2026 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Rapid Quarto Build: A Personal Knowledge Base Sprint</title>
+  <link>https://whve.github.io/projects/001-blog-build-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="sprint-overview" class="level2">
+<h2 class="anchored" data-anchor-id="sprint-overview">Sprint Overview</h2>
+<p>In <strong>March 2026</strong>, I did a quick <strong>execution-focused</strong> sprint to build a personal knowledge base in Quarto. This short post reflects on what worked, what could be improved, and how to keep momentum.</p>
+<ul>
+<li>Define the repository structure early</li>
+<li>Use templates to standardize notes</li>
+<li>Keep the first version simple and <strong>deploy quickly</strong></li>
+</ul>
+</section>
+<section id="key-lessons" class="level2">
+<h2 class="anchored" data-anchor-id="key-lessons">Key Lessons</h2>
+<p>The fastest way to get traction is to ship a minimal <strong>working base</strong> and iterate. I focused on:</p>
+<ul>
+<li>A clean file structure for Projects, Areas, Resources, Archives</li>
+<li>Consistent frontmatter for <strong>cards and metadata</strong></li>
+<li>A quick review loop: publish, read, adjust</li>
+</ul>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s Next</h2>
+<p>Moving forward, I plan to maintain the <strong>execution rhythm</strong> with weekly check-ins and a short list of improvements. The project is now in a state where additions are easy and the site stays responsive to real needs.</p>
+<ul>
+<li>Keep a short list of action items</li>
+<li>Review the build process monthly</li>
+<li>Share the system with a peer for feedback</li>
+</ul>
+<p>This sprint shows that with focused effort and <strong>strong execution</strong>, a Quarto site can become a reliable home for ongoing work and learning.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>quarto</category>
+  <category>productivity</category>
+  <guid>https://whve.github.io/projects/001-blog-build-en.html</guid>
+  <pubDate>Sun, 01 Mar 2026 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Test Project (EN)</title>
+  <link>https://whve.github.io/projects/001-test-readme-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is an example English translation of the test project. It exists to verify that <code>en/projects.qmd</code> correctly picks up files with the <code>-en</code> suffix.</p>
+<p>Features:</p>
+<ul>
+<li>Short description in English.</li>
+<li>Demonstrates <code>-en</code> filename pattern.</li>
+</ul>
+
+
+
+ ]]></description>
+  <guid>https://whve.github.io/projects/001-test-readme-en.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

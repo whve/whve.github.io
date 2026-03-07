@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ve Wh</title>
+<link>https://whve.github.io/cn/areas.html</link>
+<atom:link href="https://whve.github.io/cn/areas.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Tue, 03 Mar 2026 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>长期主义：维持健康作息的日常纪律</title>
+  <link>https://whve.github.io/areas/001-habits-cn.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="习惯的长期游戏" class="level2">
+<h2 class="anchored" data-anchor-id="习惯的长期游戏">习惯的长期游戏</h2>
+<p>保持健康作息是一场 <strong>长期主义</strong> 的练习。最近几个月，我将注意力放在那些小而持续的行动上，而不是一时的冲动。</p>
+<ul>
+<li>固定起床时间</li>
+<li>让早晨尽量低摩擦</li>
+<li>把休息放在和工作同等重要的位置</li>
+</ul>
+</section>
+<section id="极简生活的日常体现" class="level2">
+<h2 class="anchored" data-anchor-id="极简生活的日常体现">极简生活的日常体现</h2>
+<p><strong>极简思维</strong> 能减少选择疲劳，让生活更有空间：</p>
+<ul>
+<li>减少订阅服务，强化关注点</li>
+<li>只保留少数常用工具</li>
+<li>明确屏幕时间边界</li>
+</ul>
+</section>
+<section id="保持节奏的方法" class="level2">
+<h2 class="anchored" data-anchor-id="保持节奏的方法">保持节奏的方法</h2>
+<p>当系统支持日常时，坚持更容易。我用简单的检查点帮助自己保持稳定：</p>
+<ul>
+<li>每周回顾目标</li>
+<li>每天写几句短日记</li>
+<li>每月做一次睡眠与精力的“健康审计”</li>
+</ul>
+<p>日常小动作会复利。与其追求一次性的爆发，不如用 <strong>稳定节奏</strong> 支撑长期目标。</p>
+
+
+</section>
+
+ ]]></description>
+  <category>习惯</category>
+  <category>生活</category>
+  <guid>https://whve.github.io/areas/001-habits-cn.html</guid>
+  <pubDate>Tue, 03 Mar 2026 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>日记</title>
+  <link>https://whve.github.io/areas/001-test-readme-cn.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="日记" class="level2">
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">配置 PARA 架构</label></li>
+<li><label><input type="checkbox">发布到 GitHub</label></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Life</category>
+  <category>Test</category>
+  <guid>https://whve.github.io/areas/001-test-readme-cn.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

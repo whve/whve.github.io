@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ve Wh</title>
+<link>https://whve.github.io/archives.html</link>
+<atom:link href="https://whve.github.io/archives.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Fri, 06 Mar 2026 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>2024 Archive Review: Notes Migration &amp; Lessons</title>
+  <link>https://whve.github.io/archives/001-2024-review-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="migration-story" class="level2">
+<h2 class="anchored" data-anchor-id="migration-story">Migration Story</h2>
+<p>In late 2024, I migrated notes from an old note app into a new Quarto-backed archive. The process was a mix of <strong>clean-up, categorization, and preservation</strong>.</p>
+<ul>
+<li>Exported notes as markdown where possible</li>
+<li>Tagged by topic and date</li>
+<li>Archived what felt outdated, kept what still adds value</li>
+</ul>
+</section>
+<section id="what-stayed-valuable" class="level2">
+<h2 class="anchored" data-anchor-id="what-stayed-valuable">What Stayed Valuable</h2>
+<p>Not everything needed to move. The most useful items were:</p>
+<ul>
+<li>Short lessons learned from projects</li>
+<li>Snippets of ideas that still resonate</li>
+<li>Timeless references and frameworks</li>
+</ul>
+</section>
+<section id="the-role-of-archives" class="level2">
+<h2 class="anchored" data-anchor-id="the-role-of-archives">The Role of Archives</h2>
+<p>An archive is not just a dump; it’s a <strong>living memory</strong>. I revisit it occasionally to:</p>
+<ul>
+<li>Refresh long-term perspective</li>
+<li>Reuse past thinking in new contexts</li>
+<li>Celebrate progress without getting stuck in nostalgia</li>
+</ul>
+<p>This migration was an important step in keeping history accessible and making space for new work.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>archive</category>
+  <category>reflection</category>
+  <guid>https://whve.github.io/archives/001-2024-review-en.html</guid>
+  <pubDate>Fri, 06 Mar 2026 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hello PARA World</title>
+  <link>https://whve.github.io/archives/001-test-readme-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="欢迎" class="level2">
+<h2 class="anchored" data-anchor-id="欢迎">欢迎</h2>
+<p>这是正文。</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">搭建 Quarto 环境</label></li>
+<li><label><input type="checkbox" checked="">配置 PARA 架构</label></li>
+<li><label><input type="checkbox">发布到 GitHub</label></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Life</category>
+  <category>Test</category>
+  <guid>https://whve.github.io/archives/001-test-readme-en.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+  <media:content url="https://whve.github.io/profile.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
+</channel>
+</rss>

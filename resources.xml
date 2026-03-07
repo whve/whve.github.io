@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ve Wh</title>
+<link>https://whve.github.io/resources.html</link>
+<atom:link href="https://whve.github.io/resources.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Wed, 04 Mar 2026 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>A Music Archive: 70s–90s Pop &amp; Folk Inspirations</title>
+  <link>https://whve.github.io/resources/001-music-collection-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="curating-the-collection" class="level2">
+<h2 class="anchored" data-anchor-id="curating-the-collection">Curating the Collection</h2>
+<p>I started a small <strong>music resource library</strong> focused on the golden era of 70s–90s pop and traditional folk songs like “Yimeng Mountain Melody” (《沂蒙山小调》).</p>
+<ul>
+<li>Gather recordings in lossless quality when possible</li>
+<li>Note key performances and historical context</li>
+<li>Link to lyric translations and stories</li>
+</ul>
+</section>
+<section id="why-this-era-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-era-matters">Why This Era Matters</h2>
+<p>This period produced rich melodies and <strong>deep cultural resonance</strong>. Pop stars and folk singers alike captured everyday life and deeper values:</p>
+<ul>
+<li>Classic pop with memorable hooks</li>
+<li>Folk songs rooted in places and people</li>
+<li>Bridging generations through music</li>
+</ul>
+</section>
+<section id="how-i-use-the-resource" class="level2">
+<h2 class="anchored" data-anchor-id="how-i-use-the-resource">How I Use the Resource</h2>
+<p>I keep the library as a creative reference and as a source of inspiration:</p>
+<ul>
+<li>Play tracks during focused work sessions</li>
+<li>Use lyrics as writing prompts</li>
+<li>Share gems with friends to spark conversation</li>
+</ul>
+<p>This resource is both a nostalgia lab and a source of <strong>ongoing inspiration</strong>, reminding me why music can be a powerful part of a knowledge system.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>music</category>
+  <category>nostalgia</category>
+  <guid>https://whve.github.io/resources/001-music-collection-en.html</guid>
+  <pubDate>Wed, 04 Mar 2026 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Test Resource (EN)</title>
+  <link>https://whve.github.io/resources/001-test-readme-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="test-resource-english" class="level1">
+<h1>Test Resource (English)</h1>
+<p>This is an example English resource used to verify the <code>en/resources.qmd</code> listing. Place real translations in <code>../resources/</code> with the <code>-en</code> suffix.</p>
+<section id="quick-notes" class="level2">
+<h2 class="anchored" data-anchor-id="quick-notes">Quick notes</h2>
+<ul>
+<li>Keep filename suffix <code>-en</code>.</li>
+<li>Use similar front-matter fields as the source language.</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>example</category>
+  <category>en</category>
+  <guid>https://whve.github.io/resources/001-test-readme-en.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

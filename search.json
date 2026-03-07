@@ -1,0 +1,450 @@
+[
+  {
+    "objectID": "timeline.html",
+    "href": "timeline.html",
+    "title": "⏱️ Timeline",
+    "section": "",
+    "text": "A chronological timeline of the latest updates across the whole site.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\nReading Time\n\n\n\nCategories\n\n\n\n\n\n\n\n\n\n\n\nMar 7, 2026\n\n\n2024 Archive Review: Notes Migration & Lessons\n\n\nA retrospective on migrating old note-taking systems and what remained valuable.\n\n\n1 min\n\n\narchive, reflection\n\n\n\n\n\n\n\n\n\nMar 6, 2026\n\n\n音乐资源库：70-90 年代经典流行与民歌赏析\n\n\n整理一份 70-90 年代经典流行乐与民歌（如《沂蒙山小调》）的音乐资源库与感受。\n\n\n1 min\n\n\n音乐, 灵感\n\n\n\n\n\n\n\n\n\nMar 5, 2026\n\n\nA Music Archive: 70s–90s Pop & Folk Inspirations\n\n\nBuilding a curated music resource list spanning classic pop and traditional folk melodies.\n\n\n1 min\n\n\nmusic, nostalgia\n\n\n\n\n\n\n\n\n\nMar 4, 2026\n\n\n长期主义：维持健康作息的日常纪律\n\n\n关于如何通过日常纪律保持稳定健康与极简生活的反思。\n\n\n1 min\n\n\n习惯, 生活\n\n\n\n\n\n\n\n\n\nMar 3, 2026\n\n\n速战速决：用 Quarto 搭建个人知识库\n\n\n一次关于快速搭建 Quarto 个人知识库的复盘。\n\n\n1 min\n\n\nquarto, 执行\n\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\nRapid Quarto Build: A Personal Knowledge Base Sprint\n\n\nA quick retro on building a personal knowledge base with Quarto.\n\n\n1 min\n\n\nquarto, productivity\n\n\n\n\n\n\n\n\n\nMar 1, 2026\n\n\nDaily Discipline: Building Sustainable Habits\n\n\nReflections on keeping a steady daily rhythm and minimalist routines.\n\n\n1 min\n\n\nhabits, lifestyle\n\n\n\n\n\n\n\n\n\nMar 1, 2026\n\n\n2024 年回顾：旧笔记迁移与经验沉淀\n\n\n一次关于旧笔记软件迁移历史和年度总结的封存回顾。\n\n\n1 min\n\n\n档案, 反思\n\n\n\n\n\n\n\n\n\nDec 3, 2025\n\n\nMarkdown 常用语法速查\n\n\n写作中常用的 Markdown 语法及其在 Quarto 中的渲染效果。\n\n\n1 min\n\n\nMarkdown, Cheatsheet, Efficiency\n\n\n\n\n\n\n\n\n\nDec 3, 2025\n\n\nreadme\n\n\nreadme\n\n\n2 min\n\n\nreadme\n\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\n从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客\n\n\n如何使用 Quarto 构建一个支持代码渲染、无需服务器、且拥有 PARA 知识管理架构的现代化个人网站。\n\n\n3 min\n\n\nQuarto, Blog, Tutorial, PARA\n\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nTest Project (EN)\n\n\n\n\n\n1 min\n\n\n \n\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\n日记\n\n\n日记\n\n\n1 min\n\n\nLife, Test\n\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nHello PARA World\n\n\n这是我的第一篇 Quarto 博客文章。\n\n\n1 min\n\n\nLife, Test\n\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nTest Resource (EN)\n\n\n\n\n\n1 min\n\n\nexample, en\n\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\n日记\n\n\n日记\n\n\n1 min\n\n\nLife, Test\n\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nHello PARA World\n\n\n这是我的第一篇 Quarto 博客文章。\n\n\n1 min\n\n\nLife, Test\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Swift as the Wind · Projects",
+    "section": "",
+    "text": "Projects (English): this page lists translated project files placed in projects/ with the -en suffix.\nExamples: projects/001-hello-en.qmd, projects/002-tooling-en.md.\n\n\n\n\n\n\n\n\n\n\n\n\nRapid Quarto Build: A Personal Knowledge Base Sprint\n\n1 min\n\n\nquarto\n\nproductivity\n\n\n\nA quick retro on building a personal knowledge base with Quarto.\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\nTest Project (EN)\n\n1 min\n\n\n\n\n\nDec 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "archives/001-test-readme-cn.html",
+    "href": "archives/001-test-readme-cn.html",
+    "title": "日记",
+    "section": "",
+    "text": "配置 PARA 架构\n发布到 GitHub"
+  },
+  {
+    "objectID": "archives/001-test-readme-cn.html#日记",
+    "href": "archives/001-test-readme-cn.html#日记",
+    "title": "日记",
+    "section": "",
+    "text": "配置 PARA 架构\n发布到 GitHub"
+  },
+  {
+    "objectID": "archives/001-2024-review-cn.html",
+    "href": "archives/001-2024-review-cn.html",
+    "title": "2024 年回顾：旧笔记迁移与经验沉淀",
+    "section": "",
+    "text": "2024 年底，我把旧笔记软件的内容迁移到用 Quarto 构建的档案系统中。这过程中既有 清理、分类，也有保留历史的考量。\n\n尽可能导出为 Markdown\n按主题与时间打标签\n放弃过时内容，保留仍有价值的部分"
+  },
+  {
+    "objectID": "archives/001-2024-review-cn.html#迁移回顾",
+    "href": "archives/001-2024-review-cn.html#迁移回顾",
+    "title": "2024 年回顾：旧笔记迁移与经验沉淀",
+    "section": "",
+    "text": "2024 年底，我把旧笔记软件的内容迁移到用 Quarto 构建的档案系统中。这过程中既有 清理、分类，也有保留历史的考量。\n\n尽可能导出为 Markdown\n按主题与时间打标签\n放弃过时内容，保留仍有价值的部分"
+  },
+  {
+    "objectID": "archives/001-2024-review-cn.html#值得保留的内容",
+    "href": "archives/001-2024-review-cn.html#值得保留的内容",
+    "title": "2024 年回顾：旧笔记迁移与经验沉淀",
+    "section": "值得保留的内容",
+    "text": "值得保留的内容\n并不是所有东西都要搬过去。最有价值的部分是：\n\n项目中的关键经验\n仍然有启发性的想法片段\n永不过时的框架与参考"
+  },
+  {
+    "objectID": "archives/001-2024-review-cn.html#档案的意义",
+    "href": "archives/001-2024-review-cn.html#档案的意义",
+    "title": "2024 年回顾：旧笔记迁移与经验沉淀",
+    "section": "档案的意义",
+    "text": "档案的意义\n档案不是一个堆积场，而是 活的记忆。我会定期回顾：\n\n刷新长期视角\n在新的场景中复用旧思考\n庆祝进步而不沉迷怀旧\n\n这次迁移是把历史留存下来，同时为新的创作腾出空间的关键一步。"
+  },
+  {
+    "objectID": "resources/001-music-collection-en.html",
+    "href": "resources/001-music-collection-en.html",
+    "title": "A Music Archive: 70s–90s Pop & Folk Inspirations",
+    "section": "",
+    "text": "I started a small music resource library focused on the golden era of 70s–90s pop and traditional folk songs like “Yimeng Mountain Melody” (《沂蒙山小调》).\n\nGather recordings in lossless quality when possible\nNote key performances and historical context\nLink to lyric translations and stories"
+  },
+  {
+    "objectID": "resources/001-music-collection-en.html#curating-the-collection",
+    "href": "resources/001-music-collection-en.html#curating-the-collection",
+    "title": "A Music Archive: 70s–90s Pop & Folk Inspirations",
+    "section": "",
+    "text": "I started a small music resource library focused on the golden era of 70s–90s pop and traditional folk songs like “Yimeng Mountain Melody” (《沂蒙山小调》).\n\nGather recordings in lossless quality when possible\nNote key performances and historical context\nLink to lyric translations and stories"
+  },
+  {
+    "objectID": "resources/001-music-collection-en.html#why-this-era-matters",
+    "href": "resources/001-music-collection-en.html#why-this-era-matters",
+    "title": "A Music Archive: 70s–90s Pop & Folk Inspirations",
+    "section": "Why This Era Matters",
+    "text": "Why This Era Matters\nThis period produced rich melodies and deep cultural resonance. Pop stars and folk singers alike captured everyday life and deeper values:\n\nClassic pop with memorable hooks\nFolk songs rooted in places and people\nBridging generations through music"
+  },
+  {
+    "objectID": "resources/001-music-collection-en.html#how-i-use-the-resource",
+    "href": "resources/001-music-collection-en.html#how-i-use-the-resource",
+    "title": "A Music Archive: 70s–90s Pop & Folk Inspirations",
+    "section": "How I Use the Resource",
+    "text": "How I Use the Resource\nI keep the library as a creative reference and as a source of inspiration:\n\nPlay tracks during focused work sessions\nUse lyrics as writing prompts\nShare gems with friends to spark conversation\n\nThis resource is both a nostalgia lab and a source of ongoing inspiration, reminding me why music can be a powerful part of a knowledge system."
+  },
+  {
+    "objectID": "resources/001-music-collection-cn.html",
+    "href": "resources/001-music-collection-cn.html",
+    "title": "音乐资源库：70-90 年代经典流行与民歌赏析",
+    "section": "",
+    "text": "我开始整理一个音乐资源库，聚焦 70-90 年代流行音乐和传统民歌，例如《沂蒙山小调》。这是一个兼具情感和历史价值的音频档案。\n\n尽量收集高质量音源\n记录精彩演绎与背后故事\n加上歌词与译文的链接"
+  },
+  {
+    "objectID": "resources/001-music-collection-cn.html#收藏清单构建",
+    "href": "resources/001-music-collection-cn.html#收藏清单构建",
+    "title": "音乐资源库：70-90 年代经典流行与民歌赏析",
+    "section": "",
+    "text": "我开始整理一个音乐资源库，聚焦 70-90 年代流行音乐和传统民歌，例如《沂蒙山小调》。这是一个兼具情感和历史价值的音频档案。\n\n尽量收集高质量音源\n记录精彩演绎与背后故事\n加上歌词与译文的链接"
+  },
+  {
+    "objectID": "resources/001-music-collection-cn.html#这一时期的意义",
+    "href": "resources/001-music-collection-cn.html#这一时期的意义",
+    "title": "音乐资源库：70-90 年代经典流行与民歌赏析",
+    "section": "这一时期的意义",
+    "text": "这一时期的意义\n那个年代的音乐有着 强烈的共鸣：无论是流行歌手的动听旋律，还是民歌里的乡土情怀，都是时代的缩影。\n\n记忆点强的流行旋律\n根植于土地的民歌精神\n音乐连接不同世代"
+  },
+  {
+    "objectID": "resources/001-music-collection-cn.html#如何使用这个资源",
+    "href": "resources/001-music-collection-cn.html#如何使用这个资源",
+    "title": "音乐资源库：70-90 年代经典流行与民歌赏析",
+    "section": "如何使用这个资源",
+    "text": "如何使用这个资源\n我把它作为灵感来源和创作素材：\n\n在专注工作时播放\n用歌词做写作触发点\n分享给朋友激发讨论\n\n这个资源既是怀旧的实验室，也是持续 灵感来源，提醒我音乐在知识体系里也是重要的一环。"
+  },
+  {
+    "objectID": "projects/001-blog-build-cn.html",
+    "href": "projects/001-blog-build-cn.html",
+    "title": "速战速决：用 Quarto 搭建个人知识库",
+    "section": "",
+    "text": "在 2026 年 3 月，我进行了一个短暂的 速攻 复盘，目标是用 Quarto 构建一个可持续更新的个人知识库。以下是我总结的核心经验。\n\n先定好目录结构\n用模板规范文章格式\n先上线、再优化，保持 高频迭代"
+  },
+  {
+    "objectID": "projects/001-blog-build-cn.html#复盘概况",
+    "href": "projects/001-blog-build-cn.html#复盘概况",
+    "title": "速战速决：用 Quarto 搭建个人知识库",
+    "section": "",
+    "text": "在 2026 年 3 月，我进行了一个短暂的 速攻 复盘，目标是用 Quarto 构建一个可持续更新的个人知识库。以下是我总结的核心经验。\n\n先定好目录结构\n用模板规范文章格式\n先上线、再优化，保持 高频迭代"
+  },
+  {
+    "objectID": "projects/001-blog-build-cn.html#核心感悟",
+    "href": "projects/001-blog-build-cn.html#核心感悟",
+    "title": "速战速决：用 Quarto 搭建个人知识库",
+    "section": "核心感悟",
+    "text": "核心感悟\n最快的方式是先把系统搭起来，然后不断优化。我重点关注：\n\nProjects/Areas/Resources/Archives 四大模块的稳固搭建\n统一的 YAML 元数据用来支持 卡片展示\n每次发布后做快速回顾"
+  },
+  {
+    "objectID": "projects/001-blog-build-cn.html#下一步方向",
+    "href": "projects/001-blog-build-cn.html#下一步方向",
+    "title": "速战速决：用 Quarto 搭建个人知识库",
+    "section": "下一步方向",
+    "text": "下一步方向\n接下来，我会用 执行节奏 维持这个系统，每周做一次小回顾，并保持行动清单简洁。\n\n维护一个短列表的改进事项\n每月检查构建流程\n把系统分享给伙伴获取反馈\n\n这次复盘证明：只要有 明确目标+执行力，Quarto 站点可以快速成为个人知识管理的稳定载体。"
+  },
+  {
+    "objectID": "projects/001-test-readme-cn.html",
+    "href": "projects/001-test-readme-cn.html",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "",
+    "text": "作为技术人员或数据工作者，传统的 Hexo/Hugo 虽然强大，但对 Jupyter Notebook (.ipynb) 和 RMarkdown 的支持并不原生。Quarto 是 RStudio (Posit) 推出的下一代开源发布系统，它天生支持 Python/R/Julia 代码的执行与渲染，同时拥有极其简洁的配置逻辑。\n这篇文章将记录我如何使用 Quarto 配合 PARA 知识管理系统，在 GitHub Pages 上搭建这个博客的全过程。"
+  },
+  {
+    "objectID": "projects/001-test-readme-cn.html#为什么选择-quarto",
+    "href": "projects/001-test-readme-cn.html#为什么选择-quarto",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "",
+    "text": "作为技术人员或数据工作者，传统的 Hexo/Hugo 虽然强大，但对 Jupyter Notebook (.ipynb) 和 RMarkdown 的支持并不原生。Quarto 是 RStudio (Posit) 推出的下一代开源发布系统，它天生支持 Python/R/Julia 代码的执行与渲染，同时拥有极其简洁的配置逻辑。\n这篇文章将记录我如何使用 Quarto 配合 PARA 知识管理系统，在 GitHub Pages 上搭建这个博客的全过程。"
+  },
+  {
+    "objectID": "projects/001-test-readme-cn.html#常用命令速查-cheat-sheet",
+    "href": "projects/001-test-readme-cn.html#常用命令速查-cheat-sheet",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "2. 常用命令速查 (Cheat Sheet)",
+    "text": "2. 常用命令速查 (Cheat Sheet)\n在开始之前，这几个命令建议刻在脑子里，开发过程中会反复用到：\n\n启动本地预览: bash     quarto preview 作用：启动本地服务器，保存文件后浏览器会自动刷新。\n清理缓存并重建 (救命命令): bash     quarto render --clean 作用：当你发现改了配置没生效，或者页面样式错乱时，运行它！它会彻底清理缓存并重新编译。\n一键发布: bash     quarto publish gh-pages\n\n这是一个升级版的博客教程文章。\n我已将你刚才提到的需求全部融合进去了：\n\n常用命令速查：加入了 render --clean 和 preview 的说明。\n配图说明：特别强调了 Projects 在 Grid 布局下需要 image 才好看。\n实战样例：补充了 areas 里的文章写法，以及 archives 的工作原理。\n字体调整：把刚才的 Arial 12 配置也加进了配置文件代码中。\n\n你可以直接复制这一整块代码，作为你的第一篇博客内容："
+  },
+  {
+    "objectID": "projects/001-test-readme-cn.html#初始化与-para-架构设计",
+    "href": "projects/001-test-readme-cn.html#初始化与-para-架构设计",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "3. 初始化与 PARA 架构设计",
+    "text": "3. 初始化与 PARA 架构设计\n在终端中运行以下命令，创建一个博客类型的项目骨架：\n# 1. 创建项目\nquarto create-project . --type website:blog\n\n# 2. 清理默认文件\nrm -rf posts about.qmd\n\n# 3. 创建 PARA 目录\nmkdir projects areas resources archives\n我们需要分别为这四个目录创建索引文件 index.qmd，并指定不同的布局。\n\nProjects (网格视图)\nProjects 适合展示作品集。 注意： 为了美观，grid 布局下的文章强烈建议配图，否则会显示为空白的灰色方块。\n在 projects/index.qmd 中：\n---\ntitle: \"Projects\"\nlisting:\n  contents: .\n  sort: \"date desc\"\n  type: grid            # 网格布局\n  categories: true\n  fields: [image, date, title, description] # 显式要求显示图片\n---\n我的实战项目与代码作品。\n\n\nAreas (博客视图)\nAreas 适合传统的长文阅读。\n在 areas/index.qmd 中：\n---\ntitle: \"Areas\"\nlisting:\n  contents: .\n  sort: \"date desc\"\n  type: default         # 标准博客布局\n  categories: true\n---\n深度思考与随笔。\n\n\nArchives (归档视图)\nArchives 不需要写文章，它的作用是把所有其他文件夹的内容汇总在一起，形成一个时间线列表。\n在 archives/index.qmd 中：\n---\ntitle: \"Archives\"\nlisting:\n  contents:             # 关键：这里引用其他三个文件夹\n    - ../projects\n    - ../areas\n    - ../resources\n  sort: \"date desc\"\n  type: table           # 表格视图，像文件列表一样清晰\n  fields: [date, title, categories]\n---\n所有内容的完整历史归档。"
+  },
+  {
+    "objectID": "projects/001-test-readme-cn.html#核心配置与字体调整",
+    "href": "projects/001-test-readme-cn.html#核心配置与字体调整",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "4. 核心配置与字体调整",
+    "text": "4. 核心配置与字体调整\n这是我的 _quarto.yml 配置，我调整了字体大小，使其更接近 Arial 12 的阅读体验：\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"Standard Output\"\n  site-url: \"[https://你的用户名.github.io](https://你的用户名.github.io)\"\n  navbar:\n    right:\n      - text: \"Projects\"\n        href: projects/index.qmd\n      - text: \"Areas\"\n        href: areas/index.qmd\n      - text: \"Resources\"\n        href: resources/index.qmd\n      - text: \"Archives\"\n        href: archives/index.qmd\n      - icon: github\n        href: [https://github.com/你的用户名](https://github.com/你的用户名)\n\nformat:\n  html:\n    theme: litera\n    css: styles.css\n    toc: true\n    # --- 字体微调 ---\n    mainfont: \"Arial, sans-serif\"\n    fontsize: 0.9em    # 0.9em 约等于 14.4px，视觉上接近 Word 的 12号字\n    linestretch: 1.6   # 增加行高，提升阅读舒适度"
+  },
+  {
+    "objectID": "projects/001-test-readme-cn.html#实战如何写文章-sample",
+    "href": "projects/001-test-readme-cn.html#实战如何写文章-sample",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "5. 实战：如何写文章 (Sample)",
+    "text": "5. 实战：如何写文章 (Sample)\n\n例子 A：写一个 Project (带封面图)\n文件路径：projects/my-app/index.qmd\n---\ntitle: \"Python 爬虫实战\"\ndate: 2025-12-05\ncategories: [Python, Project]\nimage: featured.png   # 【重要】Grid 布局需要这张图才好看！\ndescription: \"爬取豆瓣电影Top250的完整代码。\"\n---\n\n这里是正文...\n\n\n例子 B：写一篇 Area 随笔\n文件路径：areas/thoughts/index.qmd\n---\ntitle: \"关于长期主义的思考\"\ndate: 2025-12-06\ncategories: [Life, Thinking]\n# Areas 默认列表布局不需要 image，当然加上也可以\n---\n\n这里是正文..."
+  },
+  {
+    "objectID": "projects/001-test-readme-cn.html#首页设计-dashboard",
+    "href": "projects/001-test-readme-cn.html#首页设计-dashboard",
+    "title": "从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客",
+    "section": "6. 首页设计 (Dashboard)",
+    "text": "6. 首页设计 (Dashboard)\n为了让首页直观展示 PARA 文件夹，我们在根目录的 index.qmd 中使用栅格布局。 关键点：必须设置 listing: false 以去除底部的重复列表。\n---\ntitle: \"Standard Output\"\nlisting: false          # 关键！防止首页底部出现杂乱的文章列表\nabout:\n  template: jolla\n  image: profile.jpg\n  links:\n    - icon: github\n      href: [https://github.com](https://github.com)\n---\n\n👋 欢迎来到我的数字花园。\n\n---\n\n::: {.grid}\n\n::: {.g-col-12 .g-col-md-6}\n### 🚀 [Projects](projects/index.qmd)\n**进行中的项目**\n&lt;br&gt;\n[📂 打开文件夹](projects/index.qmd){.btn .btn-outline-primary .btn-sm role=\"button\"}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n### 💡 [Areas](areas/index.qmd)\n**思考与随笔**\n&lt;br&gt;\n[📂 打开文件夹](areas/index.qmd){.btn .btn-outline-primary .btn-sm role=\"button\"}\n:::\n\n:::"
+  },
+  {
+    "objectID": "cn/resources.html",
+    "href": "cn/resources.html",
+    "title": "侵略如火 · Resources",
+    "section": "",
+    "text": "音乐资源库：70-90 年代经典流行与民歌赏析\n\n1 min\n\n\n音乐\n\n灵感\n\n\n\n整理一份 70-90 年代经典流行乐与民歌（如《沂蒙山小调》）的音乐资源库与感受。\n\n\n\nMar 6, 2026\n\n\n\n\n\n\n\n\n\n\n\nMarkdown 常用语法速查\n\n1 min\n\n\nMarkdown\n\nCheatsheet\n\nEfficiency\n\n\n\n写作中常用的 Markdown 语法及其在 Quarto 中的渲染效果。\n\n\n\nDec 3, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cn/projects.html",
+    "href": "cn/projects.html",
+    "title": "其疾如风 · Projects",
+    "section": "",
+    "text": "我的实战项目与代码作品。\n\n\n\n\n\n\n\n\n\n\n\n\n速战速决：用 Quarto 搭建个人知识库\n\n1 min\n\n\nquarto\n\n执行\n\n\n\n一次关于快速搭建 Quarto 个人知识库的复盘。\n\n\n\nMar 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n从零开始：用 Quarto + GitHub Pages 打造 PARA 系统博客\n\n3 min\n\n\nQuarto\n\nBlog\n\nTutorial\n\nPARA\n\n\n\n如何使用 Quarto 构建一个支持代码渲染、无需服务器、且拥有 PARA 知识管理架构的现代化个人网站。\n\n\n\nDec 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cn/areas.html",
+    "href": "cn/areas.html",
+    "title": "其徐如林 · Areas",
+    "section": "",
+    "text": "长期主义：维持健康作息的日常纪律\n\n1 min\n\n\n习惯\n\n生活\n\n\n\n关于如何通过日常纪律保持稳定健康与极简生活的反思。\n\n\n\nMar 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n日记\n\n1 min\n\n\nLife\n\nTest\n\n\n\n日记\n\n\n\nDec 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "areas/001-test-readme-cn.html",
+    "href": "areas/001-test-readme-cn.html",
+    "title": "日记",
+    "section": "",
+    "text": "配置 PARA 架构\n发布到 GitHub"
+  },
+  {
+    "objectID": "areas/001-test-readme-cn.html#日记",
+    "href": "areas/001-test-readme-cn.html#日记",
+    "title": "日记",
+    "section": "",
+    "text": "配置 PARA 架构\n发布到 GitHub"
+  },
+  {
+    "objectID": "areas/001-test-readme-en.html",
+    "href": "areas/001-test-readme-en.html",
+    "title": "Hello PARA World",
+    "section": "",
+    "text": "这是正文。\n\n搭建 Quarto 环境\n配置 PARA 架构\n发布到 GitHub"
+  },
+  {
+    "objectID": "areas/001-test-readme-en.html#欢迎",
+    "href": "areas/001-test-readme-en.html#欢迎",
+    "title": "Hello PARA World",
+    "section": "",
+    "text": "这是正文。\n\n搭建 Quarto 环境\n配置 PARA 架构\n发布到 GitHub"
+  },
+  {
+    "objectID": "areas.html",
+    "href": "areas.html",
+    "title": "Quiet as the Forest · Areas",
+    "section": "",
+    "text": "Areas (English): translated notes about long-term areas of focus. Place -en files in areas/.\n\n\n\n\n\n\n\n\n\n\n\n\nDaily Discipline: Building Sustainable Habits\n\n1 min\n\n\nhabits\n\nlifestyle\n\n\n\nReflections on keeping a steady daily rhythm and minimalist routines.\n\n\n\nMar 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello PARA World\n\n1 min\n\n\nLife\n\nTest\n\n\n\n这是我的第一篇 Quarto 博客文章。\n\n\n\nDec 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "areas/001-habits-en.html",
+    "href": "areas/001-habits-en.html",
+    "title": "Daily Discipline: Building Sustainable Habits",
+    "section": "",
+    "text": "Maintaining a healthy routine is a long-term commitment. Over the past few months, I’ve focused on small, consistent practices that build momentum without burning out.\n\nWake up at a consistent time\nKeep mornings low-friction\nPrioritize rest as much as work"
+  },
+  {
+    "objectID": "areas/001-habits-en.html#the-long-game-of-habits",
+    "href": "areas/001-habits-en.html#the-long-game-of-habits",
+    "title": "Daily Discipline: Building Sustainable Habits",
+    "section": "",
+    "text": "Maintaining a healthy routine is a long-term commitment. Over the past few months, I’ve focused on small, consistent practices that build momentum without burning out.\n\nWake up at a consistent time\nKeep mornings low-friction\nPrioritize rest as much as work"
+  },
+  {
+    "objectID": "areas/001-habits-en.html#minimalism-in-daily-life",
+    "href": "areas/001-habits-en.html#minimalism-in-daily-life",
+    "title": "Daily Discipline: Building Sustainable Habits",
+    "section": "Minimalism in Daily Life",
+    "text": "Minimalism in Daily Life\nA minimalist mindset helps reduce decision fatigue. By removing clutter and keeping only what matters, the day becomes clearer:\n\nFewer subscriptions, more focus\nA small set of productivity tools\nClear boundaries on screen time"
+  },
+  {
+    "objectID": "areas/001-habits-en.html#how-i-stay-accountable",
+    "href": "areas/001-habits-en.html#how-i-stay-accountable",
+    "title": "Daily Discipline: Building Sustainable Habits",
+    "section": "How I Stay Accountable",
+    "text": "How I Stay Accountable\nConsistency is easier when systems support it. I use simple checkpoints:\n\nA weekly review of goals\nA short daily journal entry\nA monthly “health check” on sleep and energy\n\nSmall daily actions compound. By valuing regular rhythm over dramatic bursts, I stay aligned with long-term goals."
+  },
+  {
+    "objectID": "areas/001-habits-cn.html",
+    "href": "areas/001-habits-cn.html",
+    "title": "长期主义：维持健康作息的日常纪律",
+    "section": "",
+    "text": "保持健康作息是一场 长期主义 的练习。最近几个月，我将注意力放在那些小而持续的行动上，而不是一时的冲动。\n\n固定起床时间\n让早晨尽量低摩擦\n把休息放在和工作同等重要的位置"
+  },
+  {
+    "objectID": "areas/001-habits-cn.html#习惯的长期游戏",
+    "href": "areas/001-habits-cn.html#习惯的长期游戏",
+    "title": "长期主义：维持健康作息的日常纪律",
+    "section": "",
+    "text": "保持健康作息是一场 长期主义 的练习。最近几个月，我将注意力放在那些小而持续的行动上，而不是一时的冲动。\n\n固定起床时间\n让早晨尽量低摩擦\n把休息放在和工作同等重要的位置"
+  },
+  {
+    "objectID": "areas/001-habits-cn.html#极简生活的日常体现",
+    "href": "areas/001-habits-cn.html#极简生活的日常体现",
+    "title": "长期主义：维持健康作息的日常纪律",
+    "section": "极简生活的日常体现",
+    "text": "极简生活的日常体现\n极简思维 能减少选择疲劳，让生活更有空间：\n\n减少订阅服务，强化关注点\n只保留少数常用工具\n明确屏幕时间边界"
+  },
+  {
+    "objectID": "areas/001-habits-cn.html#保持节奏的方法",
+    "href": "areas/001-habits-cn.html#保持节奏的方法",
+    "title": "长期主义：维持健康作息的日常纪律",
+    "section": "保持节奏的方法",
+    "text": "保持节奏的方法\n当系统支持日常时，坚持更容易。我用简单的检查点帮助自己保持稳定：\n\n每周回顾目标\n每天写几句短日记\n每月做一次睡眠与精力的“健康审计”\n\n日常小动作会复利。与其追求一次性的爆发，不如用 稳定节奏 支撑长期目标。"
+  },
+  {
+    "objectID": "archives.html",
+    "href": "archives.html",
+    "title": "Immovable as a Mountain · Archives",
+    "section": "",
+    "text": "2024 Archive Review: Notes Migration & Lessons\n\n1 min\n\n\narchive\n\nreflection\n\n\n\nA retrospective on migrating old note-taking systems and what remained valuable.\n\n\n\nMar 7, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello PARA World\n\n1 min\n\n\nLife\n\nTest\n\n\n\n这是我的第一篇 Quarto 博客文章。\n\n\n\nDec 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cn/archives.html",
+    "href": "cn/archives.html",
+    "title": "不动如山 · Archives",
+    "section": "",
+    "text": "这里存放已完结并不再维护的项目 (Graveyard)。\n\n\n\n\n\n\n\n\n\n\n\n\n2024 年回顾：旧笔记迁移与经验沉淀\n\n1 min\n\n\n档案\n\n反思\n\n\n\n一次关于旧笔记软件迁移历史和年度总结的封存回顾。\n\n\n\nMar 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n日记\n\n1 min\n\n\nLife\n\nTest\n\n\n\n日记\n\n\n\nDec 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cn/index.html",
+    "href": "cn/index.html",
+    "title": "风林火山 × PARA",
+    "section": "",
+    "text": "👋 欢迎来到我的知识作战指挥部。这里以《孙子兵法》的哲学驱动知识的流转。\n\n\n\n🌪️ 其疾如风 · Projects\n速度与时效：进行中的项目与限时攻坚战。快速推进，绝不拖泥带水。  ⚔️ 切入战场\n\n\n🌲 其徐如林 · Areas\n节奏与纪律：长期维持的责任与领域。在日常中保持秩序，稳步生长。  🛡️ 巡视营地\n\n\n🔥 侵略如火 · Resources\n能量与转化：疯狂吸收的知识库与弹药。扩张边界，随时准备爆发。  🧨 补充弹药\n\n\n⛰️ 不动如山 · Archives\n稳固与沉淀：历史归档与经验底座。封存过往，构筑不可撼动的根基。  📜 查阅卷宗"
+  },
+  {
+    "objectID": "projects/001-test-readme-en.html",
+    "href": "projects/001-test-readme-en.html",
+    "title": "Test Project (EN)",
+    "section": "",
+    "text": "This is an example English translation of the test project. It exists to verify that en/projects.qmd correctly picks up files with the -en suffix.\nFeatures:\n\nShort description in English.\nDemonstrates -en filename pattern."
+  },
+  {
+    "objectID": "projects/001-blog-build-en.html",
+    "href": "projects/001-blog-build-en.html",
+    "title": "Rapid Quarto Build: A Personal Knowledge Base Sprint",
+    "section": "",
+    "text": "In March 2026, I did a quick execution-focused sprint to build a personal knowledge base in Quarto. This short post reflects on what worked, what could be improved, and how to keep momentum.\n\nDefine the repository structure early\nUse templates to standardize notes\nKeep the first version simple and deploy quickly"
+  },
+  {
+    "objectID": "projects/001-blog-build-en.html#sprint-overview",
+    "href": "projects/001-blog-build-en.html#sprint-overview",
+    "title": "Rapid Quarto Build: A Personal Knowledge Base Sprint",
+    "section": "",
+    "text": "In March 2026, I did a quick execution-focused sprint to build a personal knowledge base in Quarto. This short post reflects on what worked, what could be improved, and how to keep momentum.\n\nDefine the repository structure early\nUse templates to standardize notes\nKeep the first version simple and deploy quickly"
+  },
+  {
+    "objectID": "projects/001-blog-build-en.html#key-lessons",
+    "href": "projects/001-blog-build-en.html#key-lessons",
+    "title": "Rapid Quarto Build: A Personal Knowledge Base Sprint",
+    "section": "Key Lessons",
+    "text": "Key Lessons\nThe fastest way to get traction is to ship a minimal working base and iterate. I focused on:\n\nA clean file structure for Projects, Areas, Resources, Archives\nConsistent frontmatter for cards and metadata\nA quick review loop: publish, read, adjust"
+  },
+  {
+    "objectID": "projects/001-blog-build-en.html#whats-next",
+    "href": "projects/001-blog-build-en.html#whats-next",
+    "title": "Rapid Quarto Build: A Personal Knowledge Base Sprint",
+    "section": "What’s Next",
+    "text": "What’s Next\nMoving forward, I plan to maintain the execution rhythm with weekly check-ins and a short list of improvements. The project is now in a state where additions are easy and the site stays responsive to real needs.\n\nKeep a short list of action items\nReview the build process monthly\nShare the system with a peer for feedback\n\nThis sprint shows that with focused effort and strong execution, a Quarto site can become a reliable home for ongoing work and learning."
+  },
+  {
+    "objectID": "resources/001-test-readme-cn.html",
+    "href": "resources/001-test-readme-cn.html",
+    "title": "Markdown 常用语法速查",
+    "section": "",
+    "text": "这是一份备忘录。\n\n\n\n\n\n语法\n效果\n\n\n\n\n**Bold**\nBold\n\n\n*Italic*\nItalic\n\n\n~~Delete~~\nDelete\n\n\n\n\n\n\nQuarto 对代码块的支持非常完美："
+  },
+  {
+    "objectID": "resources/001-test-readme-cn.html#基础语法",
+    "href": "resources/001-test-readme-cn.html#基础语法",
+    "title": "Markdown 常用语法速查",
+    "section": "",
+    "text": "这是一份备忘录。\n\n\n\n\n\n语法\n效果\n\n\n\n\n**Bold**\nBold\n\n\n*Italic*\nItalic\n\n\n~~Delete~~\nDelete\n\n\n\n\n\n\nQuarto 对代码块的支持非常完美："
+  },
+  {
+    "objectID": "resources/001-test-readme-en.html",
+    "href": "resources/001-test-readme-en.html",
+    "title": "Test Resource (EN)",
+    "section": "",
+    "text": "This is an example English resource used to verify the en/resources.qmd listing. Place real translations in ../resources/ with the -en suffix.\n\n\n\nKeep filename suffix -en.\nUse similar front-matter fields as the source language."
+  },
+  {
+    "objectID": "resources/001-test-readme-en.html#quick-notes",
+    "href": "resources/001-test-readme-en.html#quick-notes",
+    "title": "Test Resource (EN)",
+    "section": "",
+    "text": "Keep filename suffix -en.\nUse similar front-matter fields as the source language."
+  },
+  {
+    "objectID": "archives/001-2024-review-en.html",
+    "href": "archives/001-2024-review-en.html",
+    "title": "2024 Archive Review: Notes Migration & Lessons",
+    "section": "",
+    "text": "In late 2024, I migrated notes from an old note app into a new Quarto-backed archive. The process was a mix of clean-up, categorization, and preservation.\n\nExported notes as markdown where possible\nTagged by topic and date\nArchived what felt outdated, kept what still adds value"
+  },
+  {
+    "objectID": "archives/001-2024-review-en.html#migration-story",
+    "href": "archives/001-2024-review-en.html#migration-story",
+    "title": "2024 Archive Review: Notes Migration & Lessons",
+    "section": "",
+    "text": "In late 2024, I migrated notes from an old note app into a new Quarto-backed archive. The process was a mix of clean-up, categorization, and preservation.\n\nExported notes as markdown where possible\nTagged by topic and date\nArchived what felt outdated, kept what still adds value"
+  },
+  {
+    "objectID": "archives/001-2024-review-en.html#what-stayed-valuable",
+    "href": "archives/001-2024-review-en.html#what-stayed-valuable",
+    "title": "2024 Archive Review: Notes Migration & Lessons",
+    "section": "What Stayed Valuable",
+    "text": "What Stayed Valuable\nNot everything needed to move. The most useful items were:\n\nShort lessons learned from projects\nSnippets of ideas that still resonate\nTimeless references and frameworks"
+  },
+  {
+    "objectID": "archives/001-2024-review-en.html#the-role-of-archives",
+    "href": "archives/001-2024-review-en.html#the-role-of-archives",
+    "title": "2024 Archive Review: Notes Migration & Lessons",
+    "section": "The Role of Archives",
+    "text": "The Role of Archives\nAn archive is not just a dump; it’s a living memory. I revisit it occasionally to:\n\nRefresh long-term perspective\nReuse past thinking in new contexts\nCelebrate progress without getting stuck in nostalgia\n\nThis migration was an important step in keeping history accessible and making space for new work."
+  },
+  {
+    "objectID": "archives/001-test-readme-en.html",
+    "href": "archives/001-test-readme-en.html",
+    "title": "Hello PARA World",
+    "section": "",
+    "text": "这是正文。\n\n搭建 Quarto 环境\n配置 PARA 架构\n发布到 GitHub"
+  },
+  {
+    "objectID": "archives/001-test-readme-en.html#欢迎",
+    "href": "archives/001-test-readme-en.html#欢迎",
+    "title": "Hello PARA World",
+    "section": "",
+    "text": "这是正文。\n\n搭建 Quarto 环境\n配置 PARA 架构\n发布到 GitHub"
+  },
+  {
+    "objectID": "archives/001-test-readme-cn-legacy.html",
+    "href": "archives/001-test-readme-cn-legacy.html",
+    "title": "readme",
+    "section": "",
+    "text": "https://gemini.google.com/app/3ccac7b984f6ca2c\n报错问题:archives不显示Projects, Areas, Resources. 另外有error. Gemini解决方案都不可以.\n这就触及到了 “个人知识管理 (PKM)” 和 “公开博客 (Blog)” 在定义上的一个核心冲突点。\n你的理解在 PARA 方法论 层面是绝对正确的，但在 博客用户体验 层面，我们需要做一个取舍。\n这里有两种流派，你可以根据自己的喜好选择：\n\n流派一：全量时间轴流 (Blog Archive) —— 推荐\n“Archives” = 网站地图 / 历史全集\n在大多数博客中，读者点击 “Archives” (归档) 按钮，通常是想找**“按时间排序的所有文章列表”**，而不在乎这篇文章目前是“正在进行”还是“已经结束”。\n如果你把 ../projects 去掉，那么你正在进行的精彩项目就不会出现在这个时间线上，读者可能会觉得内容很少。\n\n配置方式： (保留引用，并加入当前目录) 我们不仅要保留引用，还要加入 . (当前目录)，这样你物理移动过来的旧项目也能显示。 yaml     listing:       contents:         - .                       # &lt;--- 新增：包含 Archives 文件夹自己 (存放已搬过来的旧项目)         - \"../projects/**/*.qmd\"  # 包含活跃项目         - \"../areas/**/*.qmd\"         - \"../resources/**/*.qmd\"\n\n\n\n\n流派二：严格 PARA 流 (Project Graveyard)\n“Archives” = 储藏室 / 完结区\n这就是你说的逻辑。你希望 “Archives” 页面只展示那些“已经完结、不再维护、被物理移动过来”的项目。活跃的项目只在 “Projects” 页面显示。\n\n配置方式： (删掉外部引用，只看自己) yaml     listing:       contents:         - \"**/*.{qmd,md}\"    # 只抓取当前 archives 文件夹下的东西       sort: \"date desc\"\n后果： 你的 Archives 页面一开始会是空的，直到你真正把某个项目文件夹从 projects/ 剪切粘贴到 archives/ 下，它才会出现。\n\n\n\n\n我的建议\n建议采用“流派一 (全量时间轴)”。\n因为对于访问者来说，他们不关心你的 PARA 内部状态（Active/Archived），他们只关心内容。 你可以把这个页面改名为 “Timeline” (时间轴) 或者 “All Posts”，这样既符合博客习惯，又不违反你内心的 PARA 定义。\n如何修改代码支持“搬运”操作？\n无论你选哪种流派，为了支持你将文件物理移动到 archives 文件夹，都需要在 archives/index.qmd 里加上对当前目录 . 的监控。\n请更新你的 archives/index.qmd 配置如下（这是一个完美兼容版）：\n---\ntitle: \"Archives\"\nlisting:\n  contents:\n    - .                       # 1. 监控当前文件夹 (移动过来的旧项目在这里显示)\n    - \"../projects/**/*.qmd\"  # 2. 监控活跃项目 (让它们也出现在时间线上)\n    - \"../areas/**/*.qmd\"\n    - \"../resources/**/*.qmd\"\n    # 排除各种索引页\n    - \"!index.qmd\"            # 排除自己\n    - \"!../projects/index.qmd\"\n    - \"!../areas/index.qmd\"\n    - \"!../resources/index.qmd\"\n  sort: \"date desc\"\n  type: table\n  fields: [date, title, categories]\n---\n这样设置后：\n\n活跃时： 项目在 projects/ 里，Archives 页面能看到它。\n完结后： 你把项目文件夹剪切到 archives/ 里，Archives 页面依然能看到它（链接不会断），只是物理位置变了。"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Wind, Forest, Fire, Mountain × PARA",
+    "section": "",
+    "text": "👋 Welcome to my Knowledge Command Center. Driven by the philosophy of Sun Tzu’s Art of War.\n\n\n\n🌪️ Swift as the Wind · Projects\nSpeed & Timeliness: Active projects and time-bound sprints. Moving fast with clear closures.  ⚔️ Enter Battlefield\n\n\n🌲 Quiet as the Forest · Areas\nRhythm & Discipline: Ongoing responsibilities and domains. Growing steadily in order.  🛡️ Patrol Camp\n\n\n🔥 Fierce as Fire · Resources\nEnergy & Conversion: High-octane knowledge bases and ammo. Expanding boundaries.  🧨 Restock Ammo\n\n\n⛰️ Immovable as a Mountain · Archives\nStability & Foundation: Historical archives and experience. Solidifying the base for future actions.  📜 Consult Records"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Fierce as Fire · Resources",
+    "section": "",
+    "text": "Resources (English): translated knowledge base and cheat sheets. Place translated files with -en suffix into resources/.\n\n\n\n\n\n\n\n\n\n\n\n\nA Music Archive: 70s–90s Pop & Folk Inspirations\n\n1 min\n\n\nmusic\n\nnostalgia\n\n\n\nBuilding a curated music resource list spanning classic pop and traditional folk melodies.\n\n\n\nMar 5, 2026\n\n\n\n\n\n\n\n\n\n\n\nTest Resource (EN)\n\n1 min\n\n\nexample\n\nen\n\n\n\n\n\n\n\nDec 2, 2025\n\n\n\n\n\n\nNo matching items"
+  }
+]

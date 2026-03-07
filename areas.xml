@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ve Wh</title>
+<link>https://whve.github.io/areas.html</link>
+<atom:link href="https://whve.github.io/areas.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Sat, 28 Feb 2026 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Daily Discipline: Building Sustainable Habits</title>
+  <link>https://whve.github.io/areas/001-habits-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="the-long-game-of-habits" class="level2">
+<h2 class="anchored" data-anchor-id="the-long-game-of-habits">The Long Game of Habits</h2>
+<p>Maintaining a healthy routine is a <strong>long-term commitment</strong>. Over the past few months, I’ve focused on small, consistent practices that build momentum without burning out.</p>
+<ul>
+<li>Wake up at a consistent time</li>
+<li>Keep mornings low-friction</li>
+<li>Prioritize rest as much as work</li>
+</ul>
+</section>
+<section id="minimalism-in-daily-life" class="level2">
+<h2 class="anchored" data-anchor-id="minimalism-in-daily-life">Minimalism in Daily Life</h2>
+<p>A <strong>minimalist mindset</strong> helps reduce decision fatigue. By removing clutter and keeping only what matters, the day becomes clearer:</p>
+<ul>
+<li>Fewer subscriptions, more focus</li>
+<li>A small set of productivity tools</li>
+<li>Clear boundaries on screen time</li>
+</ul>
+</section>
+<section id="how-i-stay-accountable" class="level2">
+<h2 class="anchored" data-anchor-id="how-i-stay-accountable">How I Stay Accountable</h2>
+<p>Consistency is easier when systems support it. I use simple checkpoints:</p>
+<ul>
+<li>A weekly review of goals</li>
+<li>A short daily journal entry</li>
+<li>A monthly “health check” on sleep and energy</li>
+</ul>
+<p>Small daily actions compound. By valuing <strong>regular rhythm over dramatic bursts</strong>, I stay aligned with long-term goals.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>habits</category>
+  <category>lifestyle</category>
+  <guid>https://whve.github.io/areas/001-habits-en.html</guid>
+  <pubDate>Sat, 28 Feb 2026 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hello PARA World</title>
+  <link>https://whve.github.io/areas/001-test-readme-en.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="欢迎" class="level2">
+<h2 class="anchored" data-anchor-id="欢迎">欢迎</h2>
+<p>这是正文。</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">搭建 Quarto 环境</label></li>
+<li><label><input type="checkbox" checked="">配置 PARA 架构</label></li>
+<li><label><input type="checkbox">发布到 GitHub</label></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Life</category>
+  <category>Test</category>
+  <guid>https://whve.github.io/areas/001-test-readme-en.html</guid>
+  <pubDate>Mon, 01 Dec 2025 16:00:00 GMT</pubDate>
+  <media:content url="https://whve.github.io/areas/001-test-cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
