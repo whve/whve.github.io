@@ -1,0 +1,16 @@
+---
+title: "All Articles"
+listing:
+  contents:
+    - "projects/*.{qmd,md}"
+    - "areas/*.{qmd,md}"
+    - "resources/*.{qmd,md}"
+    - "archives/*.{qmd,md}"
+  sort: "date desc"
+  type: table
+  fields: [date, title, description, reading-time, categories]
+  categories: true
+page-layout: full
+---
+
+This is the complete index of the knowledge base. Use the filter, sort, and category controls to find an article quickly.

@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "projects/*.{qmd,md}"
+    - "areas/*.{qmd,md}"
+    - "resources/*.{qmd,md}"
+    - "archives/*.{qmd,md}"
+
+website:
+  title: "Personal Knowledge Base"
+  site-url: "https://whve.github.io/"
+  navbar:
+    left:
+      - text: "All Articles"
+        href: articles.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Areas"
+        href: areas.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "Archives"
+        href: archives.qmd
+    right:
+      - icon: github
+        href: https://github.com/whve.github.io
+    search: true
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: true
+    mainfont: "Arial, sans-serif"
+    fontsize: 0.95em
+    linestretch: 1.5

@@ -1,0 +1,13 @@
+/.quarto/
+/docs/
+.DS_Store
+**/*.quarto_ipynb
+
+# 私有/本地草稿与工具配置
+/.foam/
+/inbox阴/
+/output雷/
+note.md
+en2.code-workspace
+.vscode/
+*.dmg

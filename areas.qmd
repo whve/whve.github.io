@@ -1,0 +1,16 @@
+---
+title: "Areas"
+listing:
+  contents: "areas/*.{qmd,md}"
+  sort: "date desc"
+  type: table
+  categories: true
+  fields: [date, title, description, reading-time, categories]
+page-layout: full
+---
+
+Ongoing responsibilities and topics of attention.
+
+The listing includes all `.md` and `.qmd` files in `areas/`.
+
+

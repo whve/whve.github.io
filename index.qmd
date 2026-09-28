@@ -1,0 +1,22 @@
+---
+title: "Browse the Knowledge Base"
+---
+
+This site is a small, searchable collection of projects, ongoing areas, reusable resources, and archived notes.
+
+## Browse the knowledge base
+
+- [Projects](projects.qmd): active work and time-bound efforts.
+- [Areas](areas.qmd): ongoing responsibilities and topics of attention.
+- [Resources](resources.qmd): reusable references, notes, and collections.
+- [Archives](archives.qmd): completed work and historical reviews.
+
+## All articles
+
+The [full article index](articles.qmd) combines all four sections and is sorted by date.
+
+::: {.callout-note}
+## For AI agents
+
+Repository maintenance rules, content structure, metadata requirements, and validation commands are documented in `AGENTS.md`.
+:::

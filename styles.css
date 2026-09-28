@@ -1,0 +1,17 @@
+.navbar {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.page-columns .main-content {
+    max-width: 900px;
+}
+
+.quarto-listing-table {
+    width: 100%;
+}
+
+.quarto-listing-table td,
+.quarto-listing-table th {
+    vertical-align: top;
+}
+
